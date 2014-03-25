@@ -1,0 +1,15 @@
+# Fdb version 3
+["dvips"] 0 "coverpage.dvi" "coverpage.ps" "coverpage" 
+  "coverpage.dvi" 0 -1 0 "latex"
+  (generated)
+  "coverpage.ps"
+["latex"] 1395071514 "coverpage.tex" "coverpage.dvi" "coverpage" 
+  "coverpage.aux" 1395071369 8 a94a2480d3289e625eea47cd1b285758 ""
+  "coverpage.tex" 1395071513 893 32394c690d21d34930a621fe06d9bf41 ""
+  (generated)
+  "coverpage.log"
+  "coverpage.dvi"
+["ps2pdf"] 0 "coverpage.ps" "coverpage.pdf" "coverpage" 
+  "coverpage.ps" 0 -1 0 "dvips"
+  (generated)
+  "coverpage.pdf"

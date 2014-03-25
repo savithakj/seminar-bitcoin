@@ -1,0 +1,27 @@
+%
+%******************************************************
+%
+\begin{titlepage}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\begin{center}
+% Upper part of the page
+% Title
+%\quad\\[0.3cm]
+{\large \sffamily CS 09 805 (P) : Seminar}\\[0.2cm]
+\HRule \\[0.5cm]
+{ \huge\sffamily \bfseries \vtitle}\\[0.2cm]
+\HRule \\[5.25cm]
+% Author
+{\Large \sffamily\bfseries  \vauthor}\\
+{\large \sffamily Reg. No. \vregisternumber\\ 
+S8 CSE (\vadmissionyear\ Admissions)} \\[4.5cm] 
+% Bottom of the page
+%\vfill
+\includegraphics[width=0.15\textwidth]{VidyaLogo.jpg}\\[0.3cm]
+{\Large \sffamily\bfseries Department of Computer Science and Engineering}\\ {\large\sffamily Vidya Academy of Science \& Technology\\ \normalsize Thalakkottukara, Thrissur - 680 501}\\
+({\tt http://www.vidyaacdemy.ac.in})\\
+\end{center}
+\end{titlepage}
+%
+%******************************************************
+%

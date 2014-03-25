@@ -1,0 +1,228 @@
+
+%  The lines beginning with "%" are comments. 
+%  Theses comments explain how to use this template for
+%  preparing the Seminar report. 
+%
+%  The first non-comment line below contain the matter that
+%  go into the preamble of the input file. These are collected in a 
+%  file by name "preamble.tex". This file can be seen in the 
+%  folder "SeminarReportTemplate". 
+%
+%  Do not make any changes in the first non-comment line below.
+%
+\input{preamble}
+%
+%  No changes in the next non-comment line also.
+%
+\begin{document}
+%
+%***************************************************
+%
+%  In the next line, replace "Seminar Title" by the title of your seminar.
+%
+\VAtitle{Seminar Title}%
+%
+%  In the next line, replace "Student" by your name. 
+%  Write full name without, repeat without, Mr. or Ms.
+%
+\VAauthor{Student}%
+%
+%  In the next line, replace "2008" by the year of your admission 
+%  to the College.
+%
+\VAadmissionyear{2010}%
+%
+%  In the next line, replace "VExxMCAnnn" by your 
+%  University Examination Register Number.
+%
+\VAregisternumber{VExxxCSnnn}% 
+%
+%  In the next line, replace "Guide" by the full name of your guide or supervisor 
+%  with Mr. or Ms. or Dr. or Prof.
+%
+\VAguide{Guide}% 
+%
+%  In the next line, replace "hod" by the full name of Head of Department 
+%  with Mr. or Ms. or Dr. or Prof.
+\VAhod{hod}
+%
+%  Printing the first few pages: title, certificate, acknowledgement, etc.
+%  No changes in the next non-comment line.
+%
+\input{frontmatter}
+%
+%****************************************************
+%
+% No changes in the next two non-comment lines.
+%
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{\quad Abstract}
+%
+%  Here enter the abstract of the paper.
+Bitcoin is the world's first decentralized digital currency, allowing the easy 
+storage and transfer of cryptographic tokens, using a peer-to-peer network to carry
+information, hashing as a synchronization signal to prevent double-spending, 
+and a powerful scripting system to determine ownership of the tokens. There is a 
+growing technology and business infrastructure supporting it.
+
+
+A purely peer-to-peer version of electronic cash would allow online
+payments to be sent directly from one party to another without going through a
+financial institution. Digital signatures provide part of the solution, but the main
+benefits are lost if a trusted third party is still required to prevent double-spending.
+
+The network timestamps transactions by hashing them into an ongoing chain of
+hash-based proof-of-work, forming a record that cannot be changed without 
+redoing the proof-of-work. The longest chain not only serves as proof of the 
+sequence of events witnessed, but proof that it came from the largest pool of CPU 
+power. As long as a majority of CPU power is controlled by nodes that are not 
+cooperating to attack the network, they'll generate the longest chain and outpace 
+attackers. The network itself requires minimal structure. Messages are broadcast on 
+a best effort basis, and nodes can leave and rejoin the network at will, accepting the 
+longest proof-of-work chain as proof of what happened while they were gone.
+
+To send money, you broadcast to the network that the amount on your account 
+should go down, and the amount on a receiver’s account up. Nodes, or computers,
+in the Bitcoin network apply that transaction to their copy of the ledger, and then 
+pass on the transaction to other nodes. This, with some math-based security, is 
+really all there is--a system that lets a group of computers maintain a ledger.
+
+%
+%***************************************************
+%
+%  The next line creates a Table of Contents. 
+%  Do not delete this. There must be a Table of Contents.
+%
+\tableofcontents
+%
+%  The next line creates a page containing a List of Tables.
+%  Delete it if there are no tables in your paper. 
+%
+\listoftables
+%
+%  The next line creates a page containing a List of Figures.
+%  Delete it if there are no figures in your paper.
+%
+\listoffigures
+%
+%***************************************************
+%
+\mainmatter
+%
+%  The main contents of the paper begin here. 
+%  In the following replace "Abcde Xyz" with 
+%  the title of the first chapter of your paper.
+%
+\chapter{Introduction}
+%
+%  The text given below is only some filler text. Delete 
+%  all those and replace them with the contents of your % 
+%  paper. It is not exactly gibberish. (The filler text is a 
+%  passage in Latin written by Cicero.)
+%
+Until Bitcoin’s invention in 2008 by the unidentified programmer known as Satoshi Nakamoto, online 
+transactions always required a trusted third-party intermediary. For example, if Alice wanted to send \$100 
+to Bob over the Internet, she would have had to rely on a third-party service like PayPal or MasterCard. 
+Intermediaries like PayPal keep a ledger of account holders’ balances. When Alice sends Bob \$100, 
+PayPal deducts the amount from her account and adds it to Bob’s account. Without such intermediaries, 
+digital money could be spent twice. Imagine there are no intermediaries with ledgers, and digital cash 
+is simply a computer file, just as digital documents are computer files. Alice could send \$100 to Bob 
+by attaching a money file to a message. But just as with email, sending an attachment does not remove 
+it from one’s computer. Alice would retain a copy of the money file after she had sent it. She could 
+then easily send the same \$100 to Charlie. In computer science, this is known as the “double-spending” 
+problem and until Bitcoin it could only be solved by employing a ledger-keeping trusted third party. Bit 
+coin’s invention is revolutionary because for the first time the double-spending problem can be solved 
+without the need for a third party. Bitcoin does this by distributing the necessary ledger among all the 
+users of the system via a peer-to-peer network. Every transaction that occurs in the Bitcoin economy is 
+registered in a public, distributed ledger, which is called the block chain. New transactions are checked 
+against the block chain to ensure that the same bit coins haven’t been previously spent, thus eliminating 
+the double-spending problem. The global peer-to-peer network, composed of thousands of users, takes the 
+place of an intermediary; Alice and Bob can transact without PayPal. One thing to note right away is that 
+transactions on the Bitcoin network are not denominated in dollars or Euros or yens they are on PayPal, 
+but are instead denominated in Bitcoin. This makes it a virtual currency in addition to a decentralized 
+payments network. The value of the currency is not derived from gold or government fiat, but from the 
+value that people assign to it. The dollar value of a Bitcoin is determined on an open market, just as is the 
+exchange rate between different world currencies.
+%
+%  Replace "Fghi Jklm" with the title of 
+%  the first section of the first chapter of your Report.
+%
+
+\chapter{Related Works}
+\textbf{Electronic funds transfer (EFT)} is the electronic exchange, transfer of money from one account to
+another, either within a single financial institution or across multiple institutions, through computer-based 
+systems.
+It consists of different concepts;
+
+\section{Fghi Jklm}
+\subsection{yo mayo}
+%
+Sed ut perspiciatis, unde omnis iste natus error sit 
+voluptatem accusantium doloremque laudantium, totam 
+rem aperiam eaque ipsa, quae ab illo inventore 
+veritatis et quasi architecto beatae vitae dicta 
+sunt, explicabo. Nemo enim ipsam voluptatem, quia 
+voluptas sit, aspernatur aut odit aut fugit, sed quia 
+consequuntur magni dolores eos, qui ratione voluptatem 
+sequi nesciunt, neque porro quisquam est, qui dolorem 
+ipsum, quia dolor sit amet, consectetur, adipisci[ng] 
+velit, sed quia non numquam [do] eius modi tempora 
+inci[di]dunt, ut labore et dolore magnam aliquam 
+quaerat voluptatem. Ut enim ad minima veniam, quis 
+nostrum exercitationem ullam corporis suscipit laboriosam, 
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel 
+eum iure reprehenderit, qui in ea voluptate velit esse, 
+quam nihil molestiae consequatur, vel illum, qui dolorem 
+eum fugiat, quo voluptas nulla pariatur?
+%
+\section{Opqrs Tuvw}
+%
+At vero eos et accusamus et iusto odio dignissimos 
+ducimus, qui blanditiis praesentium voluptatum 
+deleniti atque corrupti, quos dolores et quas 
+molestias excepturi sint, obcaecati cupiditate 
+non provident, similique sunt in culpa, qui officia 
+deserunt mollitia animi, id est laborum et dolorum 
+fuga. Et harum quidem rerum facilis est et expedita 
+distinctio. Nam libero tempore, cum soluta nobis 
+est eligendi optio, cumque nihil impedit, quo 
+minus id, quod maxime placeat, facere possimus, 
+omnis voluptas assumenda est, omnis dolor repellendus. 
+Temporibus autem quibusdam et aut officiis debitis 
+aut rerum necessitatibus saepe eveniet, ut et 
+oluptates repudiandae sint et molestiae non 
+recusandae. Itaque earum rerum hic tenetur a 
+sapiente delectus, ut aut reiciendis voluptatibus 
+maiores alias consequatur aut perferendis doloribus 
+asperiores repellat...
+%
+% Continue adding new chapters, sections and 
+% subsections.
+%
+% ***   Creating Bibliography   ***
+%
+% Do not delete the following two lines
+%
+\clearpage
+\addcontentsline{toc}{chapter}{\quad Bibliography}
+%
+% The markups for creating the bibliography begins here.
+% One sample bibliography item is included. 
+% Add additional items if there are any.
+%
+\begin{thebibliography}{99}
+%
+\bibitem{First}
+{\em First Lessons in \LaTeX}, by Dr. V N Krishnachandran, 
+Vidya Academy of Science \& Technology, 
+Thrissur - 680 501, 2011.
+%
+\end{thebibliography}
+%
+% Printing the last page
+%
+\input{lastpage}
+%
+%   ***   The end   ***
+%
+\end{document}

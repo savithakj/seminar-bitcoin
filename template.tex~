@@ -1,0 +1,184 @@
+%
+%
+%  The lines beginning with "%" are comments. 
+%  Theses comments explain how to use this template for
+%  preparing the Seminar report. 
+%
+%  The first non-comment line below contain the matter that
+%  go into the preamble of the input file. These are collected in a 
+%  file by name "preamble.tex". This file can be seen in the 
+%  folder "SeminarReportTemplate". 
+%
+%  Do not make any changes in the first non-comment line below.
+%
+\input{preamble}
+%
+%  No changes in the next non-comment line also.
+%
+\begin{document}
+%
+%***************************************************
+%
+%  In the next line, replace "Seminar Title" by the title of your seminar.
+%
+\VAtitle{Seminar Title}%
+%
+%  In the next line, replace "Student" by your name. 
+%  Write full name without, repeat without, Mr. or Ms.
+%
+\VAauthor{Student}%
+%
+%  In the next line, replace "2008" by the year of your admission 
+%  to the College.
+%
+\VAadmissionyear{2010}%
+%
+%  In the next line, replace "VExxMCAnnn" by your 
+%  University Examination Register Number.
+%
+\VAregisternumber{VExxxCSnnn}% 
+%
+%  In the next line, replace "Guide" by the full name of your guide or supervisor 
+%  with Mr. or Ms. or Dr. or Prof.
+%
+\VAguide{Guide}% 
+%
+%  In the next line, replace "hod" by the full name of Head of Department 
+%  with Mr. or Ms. or Dr. or Prof.
+\VAhod{hod}
+%
+%  Printing the first few pages: title, certificate, acknowledgement, etc.
+%  No changes in the next non-comment line.
+%
+\input{frontmatter}
+%
+%****************************************************
+%
+% No changes in the next two non-comment lines.
+%
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{\quad Abstract}
+%
+%  Here enter the abstract of the paper.
+
+
+
+
+
+%
+%***************************************************
+%
+%  The next line creates a Table of Contents. 
+%  Do not delete this. There must be a Table of Contents.
+%
+\tableofcontents
+%
+%  The next line creates a page containing a List of Tables.
+%  Delete it if there are no tables in your paper. 
+%
+\listoftables
+%
+%  The next line creates a page containing a List of Figures.
+%  Delete it if there are no figures in your paper.
+%
+\listoffigures
+%
+%***************************************************
+%
+\mainmatter
+%
+%  The main contents of the paper begin here. 
+%  In the following replace "Abcde Xyz" with 
+%  the title of the first chapter of your paper.
+%
+\chapter{Abcde Xyz}
+%
+%  The text given below is only some filler text. Delete 
+%  all those and replace them with the contents of your % 
+%  paper. It is not exactly gibberish. (The filler text is a 
+%  passage in Latin written by Cicero.)
+%
+Lorem Ipsum  dolor sit amet, consectetur adipisicing elit, 
+sed do eiusmod tempor incididunt ut labore et dolore 
+magna aliqua. Ut enim ad minim veniam, quis nostrud 
+exercitation ullamco laboris nisi ut aliquip ex ea 
+commodo consequat. Duis aute irure dolor in 
+reprehenderit in voluptate velit esse cillum dolore 
+eu fugiat nulla pariatur. Excepteur sint occaecat 
+cupidatat non proident, sunt in culpa qui officia 
+deserunt mollit anim id est laborum.
+%
+%  Replace "Fghi Jklm" with the title of 
+%  the first section of the first chapter of your Report.
+%
+\section{Fghi Jklm}
+%
+Sed ut perspiciatis, unde omnis iste natus error sit 
+voluptatem accusantium doloremque laudantium, totam 
+rem aperiam eaque ipsa, quae ab illo inventore 
+veritatis et quasi architecto beatae vitae dicta 
+sunt, explicabo. Nemo enim ipsam voluptatem, quia 
+voluptas sit, aspernatur aut odit aut fugit, sed quia 
+consequuntur magni dolores eos, qui ratione voluptatem 
+sequi nesciunt, neque porro quisquam est, qui dolorem 
+ipsum, quia dolor sit amet, consectetur, adipisci[ng] 
+velit, sed quia non numquam [do] eius modi tempora 
+inci[di]dunt, ut labore et dolore magnam aliquam 
+quaerat voluptatem. Ut enim ad minima veniam, quis 
+nostrum exercitationem ullam corporis suscipit laboriosam, 
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel 
+eum iure reprehenderit, qui in ea voluptate velit esse, 
+quam nihil molestiae consequatur, vel illum, qui dolorem 
+eum fugiat, quo voluptas nulla pariatur?
+%
+\section{Opqrs Tuvw}
+%
+At vero eos et accusamus et iusto odio dignissimos 
+ducimus, qui blanditiis praesentium voluptatum 
+deleniti atque corrupti, quos dolores et quas 
+molestias excepturi sint, obcaecati cupiditate 
+non provident, similique sunt in culpa, qui officia 
+deserunt mollitia animi, id est laborum et dolorum 
+fuga. Et harum quidem rerum facilis est et expedita 
+distinctio. Nam libero tempore, cum soluta nobis 
+est eligendi optio, cumque nihil impedit, quo 
+minus id, quod maxime placeat, facere possimus, 
+omnis voluptas assumenda est, omnis dolor repellendus. 
+Temporibus autem quibusdam et aut officiis debitis 
+aut rerum necessitatibus saepe eveniet, ut et 
+oluptates repudiandae sint et molestiae non 
+recusandae. Itaque earum rerum hic tenetur a 
+sapiente delectus, ut aut reiciendis voluptatibus 
+maiores alias consequatur aut perferendis doloribus 
+asperiores repellat...
+%
+% Continue adding new chapters, sections and 
+% subsections.
+%
+% ***   Creating Bibliography   ***
+%
+% Do not delete the following two lines
+%
+\clearpage
+\addcontentsline{toc}{chapter}{\quad Bibliography}
+%
+% The markups for creating the bibliography begins here.
+% One sample bibliography item is included. 
+% Add additional items if there are any.
+%
+\begin{thebibliography}{99}
+%
+\bibitem{First}
+{\em First Lessons in \LaTeX}, by Dr. V N Krishnachandran, 
+Vidya Academy of Science \& Technology, 
+Thrissur - 680 501, 2011.
+%
+\end{thebibliography}
+%
+% Printing the last page
+%
+\input{lastpage}
+%
+%   ***   The end   ***
+%
+\end{document}

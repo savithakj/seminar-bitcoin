@@ -1,0 +1,41 @@
+%
+\makeatletter
+\renewcommand{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi
+                    %\thispagestyle{fancy}%
+                    \global\@topnum\z@
+                    \@afterindentfalse
+                    \secdef\@chapter\@schapter}%
+%
+\makeatother
+%
+\pagestyle{empty}
+%\frontmatter
+\input{coverpage}
+\input{titlepage}
+\clearpage
+\pagenumbering{roman}
+%
+\addcontentsline{toc}{chapter}{\quad Certificate}
+\input{certificate}
+%
+\clearpage
+\pagestyle{fancy}
+\lhead{{\small \vtitle}} \rhead{\thepage}
+\lfoot{{\scriptsize Department of Computer Applications, 
+Vidya Academy of Science \& Technology, Thrissur}}
+\rfoot{\includegraphics[width=0.5cm]{VidyaLogo}}
+\cfoot{ }
+%
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{0.5pt}
+%
+\clearpage
+\thispagestyle{fancy}
+%
+\addcontentsline{toc}{chapter}{\quad Acknowledgement}
+\input{acknowledgment}
+%
+\clearpage
+%
+
+%
