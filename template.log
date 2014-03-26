@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.3.25)  25 MAR 2014 22:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.3.25)  26 MAR 2014 22:35
 entering extended mode
 **template.tex
 
@@ -228,7 +228,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--26
  []
 
 
-Overfull \hbox (45.49298pt too wide) in paragraph at lines 27--39
+Overfull \hbox (7.21228pt too wide) in paragraph at lines 27--39
  [] 
  []
 
@@ -368,25 +368,225 @@ Package pdftex.def Info: VidyaLogo.jpg used on input line 151.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [2]
 Chapter 2.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 157.
+
+("C:\Program Files\MiKTeX\tex\latex\psnfss\omsptm.fd"
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 157.
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
 File: VidyaLogo.jpg Graphic file (type jpg)
-<use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 206.
+ <use VidyaLogo.jpg>
+Package pdftex.def Info: VidyaLogo.jpg used on input line 176.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
- [3
+
+[3
 
 ]
 File: VidyaLogo.jpg Graphic file (type jpg)
  <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 206.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 187.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [4]
+Chapter 3.
+
+Underfull \vbox (badness 1308) has occurred while \output is active []
+
+File: VidyaLogo.jpg Graphic file (type jpg)
+
+<use VidyaLogo.jpg>
+Package pdftex.def Info: VidyaLogo.jpg used on input line 223.
+(pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
+ [5
+
+]
+File: VidyaLogo.jpg Graphic file (type jpg)
+ <use VidyaLogo.jpg>
+Package pdftex.def Info: VidyaLogo.jpg used on input line 224.
+(pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
+ [6]
+Chapter 4.
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ˜ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+File: VidyaLogo.jpg Graphic file (type jpg)
+<use VidyaLogo.jpg>
+Package pdftex.def Info: VidyaLogo.jpg used on input line 255.
+(pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
+ [7
+
+]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no Â in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+File: VidyaLogo.jpg Graphic file (type jpg)
+ <use VidyaLogo.jpg>
+Package pdftex.def Info: VidyaLogo.jpg used on input line 290.
+(pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
+ [8]
+Chapter 5.
+File: VidyaLogo.jpg Graphic file (type jpg)
+<use VidyaLogo.jpg>
+Package pdftex.def Info: VidyaLogo.jpg used on input line 314.
+(pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
+ [9
+
+] <transaction.png, id=84, 554.07pt x 275.0275pt>
+File: transaction.png Graphic file (type png)
+
+<use transaction.png>
+Package pdftex.def Info: transaction.png used on input line 323.
+(pdftex.def)             Requested size: 341.43306pt x 200.35294pt.
+File: VidyaLogo.jpg Graphic file (type jpg)
+ <use VidyaLogo.jpg>
+Package pdftex.def Info: VidyaLogo.jpg used on input line 341.
+(pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
+ [10 <C:/Users/midhun/Desktop/Downloads/Seminar Template/Seminar Template/trans
+action.png (PNG copy)>]
+<timestamp.png, id=89, 661.47125pt x 218.8175pt>
+File: timestamp.png Graphic file (type png)
+ <use timestamp.png>
+Package pdftex.def Info: timestamp.png used on input line 348.
+(pdftex.def)             Requested size: 341.43306pt x 112.94435pt.
+
+<block_chain.png, id=91, 661.47125pt x 196.735pt>
+File: block_chain.png Graphic file (type png)
+ <use block_chain.png>
+Package pdftex.def Info: block_chain.png used on input line 359.
+(pdftex.def)             Requested size: 341.43306pt x 101.54628pt.
+File: VidyaLogo.jpg Graphic file (type jpg)
+
+<use VidyaLogo.jpg>
+Package pdftex.def Info: VidyaLogo.jpg used on input line 364.
+(pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
+ [11 <C:/Users/midhun/Desktop/Downloads/Seminar Template/Seminar Template/times
+tamp.png>]
+File: VidyaLogo.jpg Graphic file (type jpg)
+ <use VidyaLogo.jpg>
+Package pdftex.def Info: VidyaLogo.jpg used on input line 377.
+(pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
+ [12 <C:/Users/midhun/Desktop/Downloads/Seminar Template/Seminar Template/block
+_chain.png>]
+File: VidyaLogo.jpg Graphic file (type jpg)
+
+<use VidyaLogo.jpg>
+Package pdftex.def Info: VidyaLogo.jpg used on input line 394.
+(pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
+ [13]
+<merkle_tree_and_pruning.png, id=103, 877.2775pt x 493.845pt>
+File: merkle_tree_and_pruning.png Graphic file (type png)
+
+<use merkle_tree_and_pruning.png>
+Package pdftex.def Info: merkle_tree_and_pruning.png used on input line 397.
+(pdftex.def)             Requested size: 341.43306pt x 192.20692pt.
+
+<proof_of_work.png, id=104, 1051.93pt x 461.725pt>
+File: proof_of_work.png Graphic file (type png)
+ <use proof_of_work.png>
+Package pdftex.def Info: proof_of_work.png used on input line 409.
+(pdftex.def)             Requested size: 341.43306pt x 149.86862pt.
+File: VidyaLogo.jpg Graphic file (type jpg)
+
+<use VidyaLogo.jpg>
+Package pdftex.def Info: VidyaLogo.jpg used on input line 414.
+(pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
+ [14 <C:/Users/midhun/Desktop/Downloads/Seminar Template/Seminar Template/merkl
+e_tree_and_pruning.png>]
+<multiple_in_outs_transaction.png, id=109, 339.2675pt x 222.8325pt>
+File: multiple_in_outs_transaction.png Graphic file (type png)
+
+<use multiple_in_outs_transaction.png>
+Package pdftex.def Info: multiple_in_outs_transaction.png used on input line 42
+1.
+(pdftex.def)             Requested size: 199.16928pt x 130.8138pt.
+File: VidyaLogo.jpg Graphic file (type jpg)
+ <use VidyaLogo.jpg>
+Package pdftex.def Info: VidyaLogo.jpg used on input line 430.
+(pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
+ [15 <C:/Users/midhun/Desktop/Downloads/Seminar Template/Seminar Template/proof
+_of_work.png>]
+<traditional_privacy_model.png, id=114, 871.255pt x 281.05pt>
+File: traditional_privacy_model.png Graphic file (type png)
+
+<use traditional_privacy_model.png>
+Package pdftex.def Info: traditional_privacy_model.png used on input line 433.
+(pdftex.def)             Requested size: 341.43306pt x 110.13654pt.
+File: VidyaLogo.jpg Graphic file (type jpg)
+ <use VidyaLogo.jpg>
+Package pdftex.def Info: VidyaLogo.jpg used on input line 448.
+(pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
+ [16 <C:/Users/midhun/Desktop/Downloads/Seminar Template/Seminar Template/multi
+ple_in_outs_transaction.png> <C:/Users/midhun/Desktop/Downloads/Seminar Templat
+e/Seminar Template/traditional_privacy_model.png>]
 ("C:\Users\midhun\Desktop\Downloads\Seminar Template\Seminar Template\lastpage.
 tex"
 File: VidyaLogo.jpg Graphic file (type jpg)
  <use VidyaLogo.jpg>
 Package pdftex.def Info: VidyaLogo.jpg used on input line 2.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
- [5
+ [17
 
 
 ]
@@ -394,26 +594,27 @@ File: VidyaLogo.jpg Graphic file (type jpg)
  <use VidyaLogo.jpg>
 Package pdftex.def Info: VidyaLogo.jpg used on input line 6.
 (pdftex.def)             Requested size: 127.67668pt x 83.11028pt.
-) [6]
+) [18]
 ("C:\Users\midhun\Desktop\Downloads\Seminar Template\Seminar Template\template.
 aux") ) 
 Here is how much of TeX's memory you used:
- 2083 strings out of 493921
- 27299 string characters out of 3148883
- 81187 words of memory out of 3000000
- 5339 multiletter control sequences out of 15000+200000
+ 2137 strings out of 493921
+ 28471 string characters out of 3148883
+ 81190 words of memory out of 3000000
+ 5383 multiletter control sequences out of 15000+200000
  35001 words of font info for 63 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 29i,13n,43p,268b,330s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,13n,43p,832b,395s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/Program Fil
-es/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/typ
-e1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uh
-vr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program 
-Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/ty
-pe1/urw/times/utmri8a.pfb>
-Output written on template.pdf (21 pages, 105706 bytes).
+es/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fo
+nts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helve
+tic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:
+/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX
+/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/time
+s/utmri8a.pfb>
+Output written on template.pdf (33 pages, 241633 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
+ 152 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
