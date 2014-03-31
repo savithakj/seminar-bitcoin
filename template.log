@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.3.25)  31 MAR 2014 15:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.3.25)  31 MAR 2014 15:45
 entering extended mode
 **template.tex
 
@@ -356,93 +356,96 @@ Package pdftex.def Info: VidyaLogo.jpg used on input line 175.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [3
 
-] <transaction.png, id=49, 554.07pt x 275.0275pt>
-File: transaction.png Graphic file (type png)
+] <images/transaction.png, id=49, 554.07pt x 275.0275pt>
+File: images/transaction.png Graphic file (type png)
 
-<use transaction.png>
-Package pdftex.def Info: transaction.png used on input line 184.
+<use images/transaction.png>
+Package pdftex.def Info: images/transaction.png used on input line 184.
 (pdftex.def)             Requested size: 341.43306pt x 200.35294pt.
 File: VidyaLogo.jpg Graphic file (type jpg)
  <use VidyaLogo.jpg>
 Package pdftex.def Info: VidyaLogo.jpg used on input line 202.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
- [4 <C:/Users/midhun/Desktop/Downloads/Seminar Template/Seminar Template/transa
-ction.png (PNG copy)>]
-<timestamp.png, id=53, 661.47125pt x 218.8175pt>
-File: timestamp.png Graphic file (type png)
- <use timestamp.png>
-Package pdftex.def Info: timestamp.png used on input line 209.
+ [4 <C:/Users/midhun/Desktop/Downloads/Seminar Template/Seminar Template/images
+/transaction.png (PNG copy)>]
+<images/timestamp.png, id=53, 661.47125pt x 218.8175pt>
+File: images/timestamp.png Graphic file (type png)
+
+<use images/timestamp.png>
+Package pdftex.def Info: images/timestamp.png used on input line 209.
 (pdftex.def)             Requested size: 341.43306pt x 112.94435pt.
 
-<block_chain.png, id=55, 661.47125pt x 196.735pt>
-File: block_chain.png Graphic file (type png)
- <use block_chain.png>
-Package pdftex.def Info: block_chain.png used on input line 220.
+<images/block_chain.png, id=55, 661.47125pt x 196.735pt>
+File: images/block_chain.png Graphic file (type png)
+
+<use images/block_chain.png>
+Package pdftex.def Info: images/block_chain.png used on input line 220.
 (pdftex.def)             Requested size: 341.43306pt x 101.54628pt.
 File: VidyaLogo.jpg Graphic file (type jpg)
-
-<use VidyaLogo.jpg>
+ <use VidyaLogo.jpg>
 Package pdftex.def Info: VidyaLogo.jpg used on input line 225.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
- [5 <C:/Users/midhun/Desktop/Downloads/Seminar Template/Seminar Template/timest
-amp.png>]
-File: VidyaLogo.jpg Graphic file (type jpg)
- <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 238.
-(pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
- [6 <C:/Users/midhun/Desktop/Downloads/Seminar Template/Seminar Template/block_
-chain.png>]
+ [5 <C:/Users/midhun/Desktop/Downloads/Seminar Template/Seminar Template/images
+/timestamp.png>]
 File: VidyaLogo.jpg Graphic file (type jpg)
 
 <use VidyaLogo.jpg>
+Package pdftex.def Info: VidyaLogo.jpg used on input line 238.
+(pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
+ [6 <C:/Users/midhun/Desktop/Downloads/Seminar Template/Seminar Template/images
+/block_chain.png>]
+File: VidyaLogo.jpg Graphic file (type jpg)
+ <use VidyaLogo.jpg>
 Package pdftex.def Info: VidyaLogo.jpg used on input line 255.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [7]
-<merkle_tree_and_pruning.png, id=67, 877.2775pt x 493.845pt>
-File: merkle_tree_and_pruning.png Graphic file (type png)
+<images/merkle_tree_and_pruning.png, id=67, 877.2775pt x 493.845pt>
+File: images/merkle_tree_and_pruning.png Graphic file (type png)
 
-<use merkle_tree_and_pruning.png>
-Package pdftex.def Info: merkle_tree_and_pruning.png used on input line 258.
+<use images/merkle_tree_and_pruning.png>
+Package pdftex.def Info: images/merkle_tree_and_pruning.png used on input line 
+258.
 (pdftex.def)             Requested size: 341.43306pt x 192.20692pt.
 
-<proof_of_work.png, id=68, 1051.93pt x 461.725pt>
-File: proof_of_work.png Graphic file (type png)
- <use proof_of_work.png>
-Package pdftex.def Info: proof_of_work.png used on input line 270.
+<images/proof_of_work.png, id=68, 1051.93pt x 461.725pt>
+File: images/proof_of_work.png Graphic file (type png)
+
+<use images/proof_of_work.png>
+Package pdftex.def Info: images/proof_of_work.png used on input line 270.
 (pdftex.def)             Requested size: 341.43306pt x 149.86862pt.
 File: VidyaLogo.jpg Graphic file (type jpg)
-
-<use VidyaLogo.jpg>
+ <use VidyaLogo.jpg>
 Package pdftex.def Info: VidyaLogo.jpg used on input line 275.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
- [8 <C:/Users/midhun/Desktop/Downloads/Seminar Template/Seminar Template/merkle
-_tree_and_pruning.png>]
-<multiple_in_outs_transaction.png, id=73, 339.2675pt x 222.8325pt>
-File: multiple_in_outs_transaction.png Graphic file (type png)
+ [8 <C:/Users/midhun/Desktop/Downloads/Seminar Template/Seminar Template/images
+/merkle_tree_and_pruning.png>] <images/multiple_in_outs_transaction.png, id=73,
+ 339.2675pt x 222.8325pt>
+File: images/multiple_in_outs_transaction.png Graphic file (type png)
 
-<use multiple_in_outs_transaction.png>
-Package pdftex.def Info: multiple_in_outs_transaction.png used on input line 28
-2.
+<use images/multiple_in_outs_transaction.png>
+Package pdftex.def Info: images/multiple_in_outs_transaction.png used on input 
+line 282.
 (pdftex.def)             Requested size: 199.16928pt x 130.8138pt.
 File: VidyaLogo.jpg Graphic file (type jpg)
  <use VidyaLogo.jpg>
 Package pdftex.def Info: VidyaLogo.jpg used on input line 291.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
- [9 <C:/Users/midhun/Desktop/Downloads/Seminar Template/Seminar Template/proof_
-of_work.png>]
-<traditional_privacy_model.png, id=79, 871.255pt x 281.05pt>
-File: traditional_privacy_model.png Graphic file (type png)
+ [9 <C:/Users/midhun/Desktop/Downloads/Seminar Template/Seminar Template/images
+/proof_of_work.png>] <images/traditional_privacy_model.png, id=79, 871.255pt x 
+281.05pt>
+File: images/traditional_privacy_model.png Graphic file (type png)
 
-<use traditional_privacy_model.png>
-Package pdftex.def Info: traditional_privacy_model.png used on input line 294.
+<use images/traditional_privacy_model.png>
+Package pdftex.def Info: images/traditional_privacy_model.png used on input lin
+e 294.
 (pdftex.def)             Requested size: 341.43306pt x 110.13654pt.
 File: VidyaLogo.jpg Graphic file (type jpg)
  <use VidyaLogo.jpg>
 Package pdftex.def Info: VidyaLogo.jpg used on input line 300.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
- [10 <C:/Users/midhun/Desktop/Downloads/Seminar Template/Seminar Template/multi
-ple_in_outs_transaction.png> <C:/Users/midhun/Desktop/Downloads/Seminar Templat
-e/Seminar Template/traditional_privacy_model.png>]
+ [10 <C:/Users/midhun/Desktop/Downloads/Seminar Template/Seminar Template/image
+s/multiple_in_outs_transaction.png> <C:/Users/midhun/Desktop/Downloads/Seminar 
+Template/Seminar Template/images/traditional_privacy_model.png>]
 Chapter 3.
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
@@ -848,7 +851,7 @@ Package pdftex.def Info: VidyaLogo.jpg used on input line 6.
 aux") ) 
 Here is how much of TeX's memory you used:
  2219 strings out of 493921
- 29555 string characters out of 3148883
+ 29751 string characters out of 3148883
  84294 words of memory out of 3000000
  5460 multiletter control sequences out of 15000+200000
  33317 words of font info for 61 fonts, out of 3000000 for 9000
