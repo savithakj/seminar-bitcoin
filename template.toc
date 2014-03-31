@@ -1,19 +1,40 @@
 \contentsline {chapter}{\hskip 1em\relax Certificate}{i}
 \contentsline {chapter}{\hskip 1em\relax Acknowledgement}{iii}
-\contentsline {chapter}{\hskip 1em\relax Abstract}{v}
+\contentsline {chapter}{\hskip 1em\relax Abstract}{iv}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
-\contentsline {chapter}{\numberline {2}Related Works}{3}
-\contentsline {chapter}{\numberline {3}Existing System}{5}
-\contentsline {chapter}{\numberline {4}Proposed System}{7}
-\contentsline {chapter}{\numberline {5}Bitcoin: A Peer-to-Peer Electronic Cash System}{9}
-\contentsline {section}{\numberline {5.1}Introduction}{9}
-\contentsline {section}{\numberline {5.2}Transactions}{10}
-\contentsline {section}{\numberline {5.3}Timestamp Server}{11}
-\contentsline {section}{\numberline {5.4}Proof-of-Work}{11}
-\contentsline {section}{\numberline {5.5}Network}{12}
-\contentsline {section}{\numberline {5.6}Incentive}{13}
-\contentsline {section}{\numberline {5.7}Reclaiming Disk Space}{13}
-\contentsline {section}{\numberline {5.8}Simplified Payment Verification}{14}
-\contentsline {section}{\numberline {5.9}Combining and Splitting Value}{15}
-\contentsline {section}{\numberline {5.10}Privacy}{15}
-\contentsline {chapter}{\hskip 1em\relax Bibliography}{17}
+\contentsline {chapter}{\numberline {2}Bitcoin: A Peer-to-Peer Electronic Cash System}{3}
+\contentsline {section}{\numberline {2.1}Introduction}{3}
+\contentsline {section}{\numberline {2.2}Transactions}{4}
+\contentsline {section}{\numberline {2.3}Timestamp Server}{5}
+\contentsline {section}{\numberline {2.4}Proof-of-Work}{5}
+\contentsline {section}{\numberline {2.5}Network}{6}
+\contentsline {section}{\numberline {2.6}Incentive}{7}
+\contentsline {section}{\numberline {2.7}Reclaiming Disk Space}{7}
+\contentsline {section}{\numberline {2.8}Simplified Payment Verification}{8}
+\contentsline {section}{\numberline {2.9}Combining and Splitting Value}{9}
+\contentsline {section}{\numberline {2.10}Privacy}{9}
+\contentsline {chapter}{\numberline {3}Under the Hood of the Bitcoin System}{11}
+\contentsline {section}{\numberline {3.1}Transactions and Scripting: The Tools for Spending}{12}
+\contentsline {section}{\numberline {3.2}Blocks and Coin Creation: the Process of Verifying}{13}
+\contentsline {section}{\numberline {3.3}Forking and Conflict Resolution}{13}
+\contentsline {section}{\numberline {3.4}Theft or Loss of Bitcoins}{14}
+\contentsline {subsection}{\numberline {3.4.1}Malware Attacks}{14}
+\contentsline {subsection}{\numberline {3.4.2}Accidental Loss of Bitcoins}{14}
+\contentsline {section}{\numberline {3.5}Scalability}{16}
+\contentsline {subsection}{\numberline {3.5.1}Linear Transaction History}{16}
+\contentsline {chapter}{\numberline {4}Bitcoin mining the hard way: The algorithms, protocols, and bytes}{18}
+\contentsline {section}{\numberline {4.1}The purpose of mining}{18}
+\contentsline {section}{\numberline {4.2}How mining works}{19}
+\contentsline {section}{\numberline {4.3}Mining is very hard}{20}
+\contentsline {section}{\numberline {4.4}Mining with a pool}{21}
+\contentsline {chapter}{\numberline {5}Limitations and Advantages}{22}
+\contentsline {section}{\numberline {5.1}Challenges}{22}
+\contentsline {section}{\numberline {5.2}Volatility}{22}
+\contentsline {section}{\numberline {5.3}Security Breaches}{23}
+\contentsline {section}{\numberline {5.4}Criminal Uses}{23}
+\contentsline {section}{\numberline {5.5}Benefits}{25}
+\contentsline {subsection}{\numberline {5.5.1}Lower Transaction Costs}{25}
+\contentsline {subsection}{\numberline {5.5.2}Potential to Combat Poverty and Oppression}{27}
+\contentsline {subsection}{\numberline {5.5.3}Stimulus for Financial Innovation}{28}
+\contentsline {chapter}{\numberline {6}Conclusion}{29}
+\contentsline {chapter}{\hskip 1em\relax Bibliography}{30}
