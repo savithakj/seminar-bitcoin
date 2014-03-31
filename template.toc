@@ -25,19 +25,19 @@
 \contentsline {subsection}{\numberline {3.4.2}Accidental Loss of Bitcoins}{17}
 \contentsline {section}{\numberline {3.5}Scalability}{19}
 \contentsline {subsection}{\numberline {3.5.1}Linear Transaction History}{19}
-\contentsline {chapter}{\numberline {4}Bitcoin mining the hard way: The algorithms, protocols, and bytes}{21}
+\contentsline {chapter}{\numberline {4}Bitcoin mining the hard way: The algorithms and protocols}{21}
 \contentsline {section}{\numberline {4.1}The purpose of mining}{21}
 \contentsline {section}{\numberline {4.2}How mining works}{22}
 \contentsline {section}{\numberline {4.3}Mining is very hard}{23}
 \contentsline {section}{\numberline {4.4}Mining with a pool}{24}
-\contentsline {chapter}{\numberline {5}Limitations and Advantages}{25}
+\contentsline {chapter}{\numberline {5}Challenges and Benefits}{25}
 \contentsline {section}{\numberline {5.1}Challenges}{25}
-\contentsline {section}{\numberline {5.2}Volatility}{25}
-\contentsline {section}{\numberline {5.3}Security Breaches}{26}
-\contentsline {section}{\numberline {5.4}Criminal Uses}{26}
-\contentsline {section}{\numberline {5.5}Benefits}{28}
-\contentsline {subsection}{\numberline {5.5.1}Lower Transaction Costs}{28}
-\contentsline {subsection}{\numberline {5.5.2}Potential to Combat Poverty and Oppression}{30}
-\contentsline {subsection}{\numberline {5.5.3}Stimulus for Financial Innovation}{31}
+\contentsline {subsection}{\numberline {5.1.1}Volatility}{25}
+\contentsline {subsection}{\numberline {5.1.2}Security Breaches}{26}
+\contentsline {subsection}{\numberline {5.1.3}Criminal Uses}{26}
+\contentsline {section}{\numberline {5.2}Benefits}{28}
+\contentsline {subsection}{\numberline {5.2.1}Lower Transaction Costs}{28}
+\contentsline {subsection}{\numberline {5.2.2}Potential to Combat Poverty and Oppression}{30}
+\contentsline {subsection}{\numberline {5.2.3}Stimulus for Financial Innovation}{31}
 \contentsline {chapter}{\numberline {6}Conclusion}{32}
 \contentsline {chapter}{\hskip 1em\relax Bibliography}{33}
