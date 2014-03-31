@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.3.25)  31 MAR 2014 21:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.3.25)  31 MAR 2014 23:33
 entering extended mode
 **template.tex
 
@@ -232,9 +232,9 @@ gment.tex"
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 
-Overfull \hbox (22.18274pt too wide) in paragraph at lines 9--13
-\OT1/ptm/b/n/10.95 Col.M.P In-duchu-dan(Retd) \OT1/ptm/m/n/10.95 ME, FITE, FIE,
- MCSI ,the Head of De-part-ment,Computer
+Overfull \hbox (0.2335pt too wide) in paragraph at lines 14--15
+[]\OT1/ptm/m/n/10.95 I am es-pe-cially thank-ful to my sem-i-nar guide \OT1/ptm
+/b/n/10.95 Ms.Geethu.P.C M.Tech, MISTE
  []
 
 )
@@ -249,7 +249,6 @@ File: VidyaLogo.jpg Graphic file (type jpg)
 Package pdftex.def Info: VidyaLogo.jpg used on input line 38.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [3
-
 
 
 ])
@@ -932,7 +931,7 @@ tic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:
 /Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX
 /fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on template.pdf (42 pages, 350540 bytes).
+Output written on template.pdf (42 pages, 350573 bytes).
 PDF statistics:
  183 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
