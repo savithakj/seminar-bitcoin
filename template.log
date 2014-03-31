@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.3.25)  31 MAR 2014 21:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.3.25)  31 MAR 2014 21:10
 entering extended mode
 **template.tex
 
@@ -202,26 +202,14 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/midhun/Desktop/D
 ownloads/Seminar Template/Seminar Template/VidyaLogo.jpg>])
-("C:\Users\midhun\Desktop\Downloads\Seminar Template\Seminar Template\titlepage
-.tex"
-File: VidyaLogo.jpg Graphic file (type jpg)
- <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 19.
-(pdftex.def)             Requested size: 53.9978pt x 35.14964pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1
-
-])
 ("C:\Users\midhun\Desktop\Downloads\Seminar Template\Seminar Template\certifica
 te.tex"
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
 File: VidyaLogo.jpg Graphic file (type jpg)
  <use VidyaLogo.jpg>
 Package pdftex.def Info: VidyaLogo.jpg used on input line 9.
@@ -288,27 +276,17 @@ Package pdftex.def Info: VidyaLogo.jpg used on input line 27.
 \tf@toc=\write3
 File: VidyaLogo.jpg Graphic file (type jpg)
  <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 101.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 106.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [6]
 ("C:\Users\midhun\Desktop\Downloads\Seminar Template\Seminar Template\template.
-lot")
-\tf@lot=\write4
-File: VidyaLogo.jpg Graphic file (type jpg)
- <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 106.
-(pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
- [7
-
-]
-("C:\Users\midhun\Desktop\Downloads\Seminar Template\Seminar Template\template.
 lof")
-\tf@lof=\write5
+\tf@lof=\write4
 File: VidyaLogo.jpg Graphic file (type jpg)
  <use VidyaLogo.jpg>
 Package pdftex.def Info: VidyaLogo.jpg used on input line 110.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
- [8
+ [7
 
 ]
 Chapter 1.
@@ -454,7 +432,7 @@ Package pdftex.def Info: VidyaLogo.jpg used on input line 323.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [6
 
-] <images/transaction.png, id=59, 554.07pt x 275.0275pt>
+] <images/transaction.png, id=53, 554.07pt x 275.0275pt>
 File: images/transaction.png Graphic file (type png)
 
 <use images/transaction.png>
@@ -466,14 +444,14 @@ Package pdftex.def Info: VidyaLogo.jpg used on input line 350.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [7 <C:/Users/midhun/Desktop/Downloads/Seminar Template/Seminar Template/images
 /transaction.png (PNG copy)>]
-<images/timestamp.png, id=63, 661.47125pt x 218.8175pt>
+<images/timestamp.png, id=57, 661.47125pt x 218.8175pt>
 File: images/timestamp.png Graphic file (type png)
 
 <use images/timestamp.png>
 Package pdftex.def Info: images/timestamp.png used on input line 357.
 (pdftex.def)             Requested size: 341.43306pt x 112.94435pt.
 
-<images/block_chain.png, id=65, 661.47125pt x 196.735pt>
+<images/block_chain.png, id=59, 661.47125pt x 196.735pt>
 File: images/block_chain.png Graphic file (type png)
 
 <use images/block_chain.png>
@@ -497,7 +475,7 @@ File: VidyaLogo.jpg Graphic file (type jpg)
 Package pdftex.def Info: VidyaLogo.jpg used on input line 403.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [10]
-<images/merkle_tree_and_pruning.png, id=78, 877.2775pt x 493.845pt>
+<images/merkle_tree_and_pruning.png, id=71, 877.2775pt x 493.845pt>
 File: images/merkle_tree_and_pruning.png Graphic file (type png)
 
 <use images/merkle_tree_and_pruning.png>
@@ -505,7 +483,7 @@ Package pdftex.def Info: images/merkle_tree_and_pruning.png used on input line
 406.
 (pdftex.def)             Requested size: 341.43306pt x 192.20692pt.
 
-<images/proof_of_work.png, id=79, 1051.93pt x 461.725pt>
+<images/proof_of_work.png, id=72, 1051.93pt x 461.725pt>
 File: images/proof_of_work.png Graphic file (type png)
 
 <use images/proof_of_work.png>
@@ -516,7 +494,7 @@ File: VidyaLogo.jpg Graphic file (type jpg)
 Package pdftex.def Info: VidyaLogo.jpg used on input line 423.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [11 <C:/Users/midhun/Desktop/Downloads/Seminar Template/Seminar Template/image
-s/merkle_tree_and_pruning.png>] <images/multiple_in_outs_transaction.png, id=84
+s/merkle_tree_and_pruning.png>] <images/multiple_in_outs_transaction.png, id=78
 , 339.2675pt x 222.8325pt>
 File: images/multiple_in_outs_transaction.png Graphic file (type png)
 
@@ -529,7 +507,7 @@ File: VidyaLogo.jpg Graphic file (type jpg)
 Package pdftex.def Info: VidyaLogo.jpg used on input line 439.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [12 <C:/Users/midhun/Desktop/Downloads/Seminar Template/Seminar Template/image
-s/proof_of_work.png>] <images/traditional_privacy_model.png, id=89, 871.255pt x
+s/proof_of_work.png>] <images/traditional_privacy_model.png, id=83, 871.255pt x
  281.05pt>
 File: images/traditional_privacy_model.png Graphic file (type png)
 
@@ -712,7 +690,7 @@ Overfull \hbox (13.60138pt too wide) in paragraph at lines 694--696
 92982a50 and
  []
 
-<images/structure_of_bitcoin_block.png, id=121, 501.875pt x 294.09875pt>
+<images/structure_of_bitcoin_block.png, id=114, 501.875pt x 294.09875pt>
 File: images/structure_of_bitcoin_block.png Graphic file (type png)
 
 <use images/structure_of_bitcoin_block.png>
@@ -940,8 +918,8 @@ Package pdftex.def Info: VidyaLogo.jpg used on input line 6.
 ("C:\Users\midhun\Desktop\Downloads\Seminar Template\Seminar Template\template.
 aux") ) 
 Here is how much of TeX's memory you used:
- 2219 strings out of 493921
- 29751 string characters out of 3148883
+ 2214 strings out of 493921
+ 29425 string characters out of 3148883
  83294 words of memory out of 3000000
  5460 multiletter control sequences out of 15000+200000
  33317 words of font info for 61 fonts, out of 3000000 for 9000
@@ -954,9 +932,9 @@ tic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:
 /Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX
 /fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on template.pdf (44 pages, 352287 bytes).
+Output written on template.pdf (42 pages, 350540 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
+ 183 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
