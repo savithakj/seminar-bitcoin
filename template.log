@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.3.25)  2 APR 2014 03:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.3.25)  2 APR 2014 03:07
 entering extended mode
 **template.tex
 
@@ -891,17 +891,8 @@ Package pdftex.def Info: VidyaLogo.jpg used on input line 1091.
  [32
 
 ]
-("C:\Users\midhun\Desktop\Downloads\Seminar Template\Seminar Template\lastpage.
-tex"
-File: VidyaLogo.jpg Graphic file (type jpg)
- <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 6.
-(pdftex.def)             Requested size: 127.67668pt x 83.11028pt.
-)
 ("C:\Users\midhun\Desktop\Downloads\Seminar Template\Seminar Template\template.
-bbl" [33
-
-]
+bbl"
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ” in font ptmr7t!
@@ -918,13 +909,21 @@ Underfull \hbox (badness 5893) in paragraph at lines 54--57
  []
 
 )
+("C:\Users\midhun\Desktop\Downloads\Seminar Template\Seminar Template\lastpage.
+tex"
 File: VidyaLogo.jpg Graphic file (type jpg)
  <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 1124.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 2.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
- [34
+ [33
+
 
 ]
+File: VidyaLogo.jpg Graphic file (type jpg)
+ <use VidyaLogo.jpg>
+Package pdftex.def Info: VidyaLogo.jpg used on input line 6.
+(pdftex.def)             Requested size: 127.67668pt x 83.11028pt.
+) [34]
 ("C:\Users\midhun\Desktop\Downloads\Seminar Template\Seminar Template\template.
 aux")
 
@@ -946,7 +945,7 @@ hvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Prog
 ram Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/font
 s/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on template.pdf (42 pages, 353857 bytes).
+Output written on template.pdf (42 pages, 353850 bytes).
 PDF statistics:
  183 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
