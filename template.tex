@@ -121,9 +121,7 @@ really all there is--a system that lets a group of computers maintain a ledger.
 %  passage in Latin written by Cicero.)
 %
 Until Bitcoin’s invention in 2008 by the unidentified programmer known as Satoshi Nakamoto, online 
-transactions always required a trusted third-party intermediary. For example, if Alice wanted to send \$100 
-to Bob over the Internet, she would have had to rely on a third-party service like PayPal or MasterCard. 
-Intermediaries like PayPal keep a ledger of account holders’ balances. When Alice sends Bob \$100, 
+transactions always required a trusted third-party intermediary\cite{nakamoto2012bitcoin}. For example, if Alice wanted to send \$100 to Bob over the Internet, she would have had to rely on a third-party service like PayPal or MasterCard. Intermediaries like PayPal keep a ledger of account holders’ balances. When Alice sends Bob \$100, 
 PayPal deducts the amount from her account and adds it to Bob’s account. Without such intermediaries, 
 digital money could be spent twice. Imagine there are no intermediaries with ledgers, and digital cash 
 is simply a computer file, just as digital documents are computer files. Alice could send \$100 to Bob 
@@ -141,8 +139,8 @@ place of an intermediary; Alice and Bob can transact without PayPal. One thing t
 transactions on the Bitcoin network are not denominated in dollars or Euros or yens they are on PayPal, 
 but are instead denominated in Bitcoin. This makes it a virtual currency in addition to a decentralized 
 payments network. The value of the currency is not derived from gold or government fiat, but from the 
-value that people assign to it. The dollar value of a Bitcoin is determined on an open market, just as is the 
-exchange rate between different world currencies.\cite{nakamoto2012bitcoin} \cite{abramowitzstegun} \cite{lowenthal2011bitcoin}
+value that people assign to it\cite{abramowitzstegun}. The dollar value of a Bitcoin is determined on an open market, just as is the 
+exchange rate between different world currencies.
 
 
 %#####################################################################################################################################3
@@ -150,7 +148,7 @@ exchange rate between different world currencies.\cite{nakamoto2012bitcoin} \cit
 
 \textbf{Electronic funds transfer (EFT)} is the electronic exchange, transfer of money from one account to
 another, either within a single financial institution or across multiple institutions, through computer-based 
-systems.
+systems\cite{barber2012bitter}.
 It consists of different concepts;
 \begin{itemize}
 	\item Cardholder-initiated transactions, using a payment card such as a credit or debit card
@@ -192,7 +190,7 @@ decentralized and secure information economy. When comparing crypto currencies t
 money, the most notable difference is in how no group or individual may accelerate, stunt or in 
 any other way significantly abuse the production of money. Instead, only a certain amount of 
 crypto currency is produced by the entire crypto currency system collectively, at a rate which is 
-bounded by a value both prior defined and publicly known.
+bounded by a value both prior defined and publicly known\cite{nakamoto2012bitcoin}.
 
 In centralized economic systems such as the Federal Reserve System governments regulate 
 the value of currency by simply printing units of fiat money or demanding additions to digital 
@@ -243,7 +241,7 @@ Instead, Bitcoin is created digitally, by a community of people that anyone can 
 using computing power in a distributed network. This network also processes transactions made with the 
 virtual currency, effectively making Bitcoin its own payment network.
 
-Bitcoin has several important features that set it apart from normal fiat currencies.
+Bitcoin has several important features that set it apart from normal fiat currencies\cite{grinberg2012bitcoin}.
 
 \begin{enumerate}
 	\item It’s decentralized
@@ -252,12 +250,12 @@ Bitcoin has several important features that set it apart from normal fiat curren
 	processes transactions makes up a part of the network, and the machines work together. That means that, 
 	in theory, one central authority can’t tinker with monetary policy and cause a meltdown – or simply 
 	decide to take people’s Bitcoin away from them, as the Central European Bank decided to do in Cyprus in 
-	early 2013. And if some part of the network goes offline for some reason, the money keeps on flowing.
+	early 2013. And if some part of the network goes offline for some reason, the money keeps on flowing\cite{nakamoto2012bitcoin}.
 	\item It's easy to setup
 
 	Conventional banks make you jump through hoops simply to open a bank account. Setting up merchant
 	accounts for payment is another Kafkaesque task, beset by bureaucracy. However, you can set up a
-	Bitcoin address in seconds, no questions asked, and with no fees payable.
+	Bitcoin address in seconds, no questions asked, and with no fees payable\cite{nakamoto2012bitcoin}.
 
 	\item It's anonymous
 
@@ -271,11 +269,11 @@ Bitcoin has several important features that set it apart from normal fiat curren
 	address, anyone can tell how many Bitcoin are stored at that address. They just don’t know that it’s yours.
 	There are measures that people can take to make their activities more opaque on the bitcoin network,
 	though, such as not using the same Bitcoin addresses consistently, and not transferring lots of bitcoin to a
-	single address.
+	single address\cite{nakamoto2012bitcoin}.
 
 	\item Transaction fees are miniscule
 
-	Your bank may charge you a £10 fee for international transfers. Bitcoin doesn’t.
+	Your bank may charge you a \$10 fee for international transfers. Bitcoin doesn’t.
 
 	\item It's fast
 
@@ -315,7 +313,7 @@ services. With the possibility of reversal, the need for trust spreads. Merchant
 be wary of their customers, hassling them for more information than they would otherwise need.
 A certain percentage of fraud is accepted as unavoidable. These costs and payment uncertainties
 can be avoided in person by using physical currency, but no mechanism exists to make payments
-over a communications channel without a trusted party.
+over a communications channel without a trusted party\cite{nakamoto2012bitcoin}.
 
 What is needed is an electronic payment system based on cryptographic proof instead of trust,
 allowing any two willing parties to transact directly with each other without the need for a trusted
@@ -343,7 +341,7 @@ the coin. A common solution is to introduce a trusted central authority, or mint
 transaction for double spending. After each transaction, the coin must be returned to the mint to
 issue a new coin, and only coins issued directly from the mint are trusted not to be double-spent.
 The problem with this solution is that the fate of the entire money system depends on the
-company running the mint, with every transaction having to go through them, just like a bank.
+company running the mint, with every transaction having to go through them, just like a bank\cite{nakamoto2012bitcoin}.
 We need a way for the payee to know that the previous owners did not sign any earlier
 transactions. For our purposes, the earliest transaction is the one that counts, so we don't care
 about later attempts to double-spend. The only way to confirm the absence of a transaction is to
@@ -355,7 +353,7 @@ majority of nodes agreed it was the first received.
 
 \section{Timestamp Server}
 
-The solution we propose begins with a timestamp server. A timestamp server works by taking a hash of a block of items to be timestamped and widely publishing the hash, such as in a newspaper or Usenet post. The timestamp proves that the data must have existed at the time, obviously, in order to get into the hash. Each timestamp includes the previous timestamp in its hash, forming a chain, with each additional timestamp reinforcing the ones before it.
+The solution we propose begins with a timestamp server. A timestamp server works by taking a hash of a block of items to be timestamped and widely publishing the hash, such as in a newspaper or Usenet post. The timestamp proves that the data must have existed at the time, obviously, in order to get into the hash. Each timestamp includes the previous timestamp in its hash, forming a chain, with each additional timestamp reinforcing the ones before it\cite{nakamoto2012bitcoin}.
 
 \begin{figure}[ht!]
 \centering
@@ -366,7 +364,7 @@ The solution we propose begins with a timestamp server. A timestamp server works
 \section{Proof-of-Work}
 
 To implement a distributed timestamp server on a peer-to-peer basis, we will need to use a proof-of-work system similar to Adam Back's Hashcash, rather than newspaper or Usenet posts. The proof-of-work involves scanning for a value that when hashed, such as with SHA-256, the hash begins with a number of zero bits. The average work required is exponential in the number of zero bits required and can be verified by executing a single hash.
-For our timestamp network, we implement the proof-of-work by incrementing a nonce in the block until a value is found that gives the block's hash the required zero bits. Once the CPU effort has been expended to make it satisfy the proof-of-work, the block cannot be changed without redoing the work. As later blocks are chained after it, the work to change the block would include redoing all the blocks after it.
+For our timestamp network, we implement the proof-of-work by incrementing a nonce in the block until a value is found that gives the block's hash the required zero bits. Once the CPU effort has been expended to make it satisfy the proof-of-work, the block cannot be changed without redoing the work. As later blocks are chained after it, the work to change the block would include redoing all the blocks after it\cite{nakamoto2012bitcoin}.
 
 \begin{figure}[ht!]
 \centering
@@ -398,13 +396,13 @@ New transaction broadcasts do not necessarily need to reach all nodes. As long a
 
 By convention, the first transaction in a block is a special transaction that starts a new coin owned by the creator of the block. This adds an incentive for nodes to support the network, and provides a way to initially distribute coins into circulation, since there is no central authority to issue them. The steady addition of a constant of amount of new coins is analogous to gold miners expending resources to add gold to circulation. In our case, it is CPU time and electricity that is expended.
 
-The incentive can also be funded with transaction fees. If the output value of a transaction is less than its input value, the difference is a transaction fee that is added to the incentive value of the block containing the transaction. Once a predetermined number of coins have entered circulation, the incentive can transition entirely to transaction fees and be completely inflation free.
+The incentive can also be funded with transaction fees. If the output value of a transaction is less than its input value, the difference is a transaction fee that is added to the incentive value of the block containing the transaction. Once a predetermined number of coins have entered circulation, the incentive can transition entirely to transaction fees and be completely inflation free\cite{nakamoto2012bitcoin}\cite{grinberg2012bitcoin}.
 
 The incentive may help encourage nodes to stay honest. If a greedy attacker is able to assemble more CPU power than all the honest nodes, he would have to choose between using it to defraud people by stealing back his payments, or using it to generate new coins. He ought to find it more profitable to play by the rules, such rules that favour him with more new coins than everyone else combined, than to undermine the system and the validity of his own wealth.
 
 \section{Reclaiming Disk Space}
 
-Once the latest transaction in a coin is buried under enough blocks, the spent transactions before it can be discarded to save disk space. To facilitate this without breaking the block's hash, transactions are hashed in a Merkle Tree, with only the root included in the block's hash. Old blocks can then be compacted by stubbing off branches of the tree. The interior hashes do not need to be stored.
+Once the latest transaction in a coin is buried under enough blocks, the spent transactions before it can be discarded to save disk space. To facilitate this without breaking the block's hash, transactions are hashed in a Merkle Tree, with only the root included in the block's hash. Old blocks can then be compacted by stubbing off branches of the tree. The interior hashes do not need to be stored \cite{nakamoto2012bitcoin}.
 
 \begin{figure}[ht!]
 \centering
@@ -464,11 +462,11 @@ coins, Alice creates a new transaction that endorses any such coins she has not 
 yet, e.g., she can endorse, using a digital signature, 4 coins each received from Diane
 and Edgar as the inputs of her new transaction. As outputs she specifies 1 coin for Bob,
 2 for Carol, and 4:99 of “change” back to herself. In this example, Alice chose to leave
-a residual of 0:01 coin, which can be claimed as a fee by whoever vets it first.
+a residual of 0:01 coin, which can be claimed as a fee by whoever vets it first\cite{barber2012bitter}.
 
 \textbf{Vetting.} In order for a transaction to be confirmed, its various components must be
 validated and checked against double spending. Once verified, transactions are incorporated
-in frequently issued official records called blocks. Anyone is allowed to create
+in frequently issued official records called blocks\cite{barber2012bitter}. Anyone is allowed to create
 such blocks, and indeed two sorts of incentives are offered to attract verifiers to compete
 for block creation: 
 \begin{itemize}
@@ -482,12 +480,12 @@ amount for the effort (50 coins today, rapidly decreasing). The rate of block,
 hence money, creation is limited by a proof of work of adaptive difficulty, that strives to
 maintain a creation rate of one block every 10 minutes across the whole network. Bitcoin
 transaction verification is thus a lucrative race open to all, but a computationally
-expensive one. Note: “bad” blocks will be rejected by peers, invalidating their rewards.
+expensive one. Note: “bad” blocks will be rejected by peers, invalidating their rewards\cite{barber2012bitter}.
 
 \section{Transactions and Scripting: The Tools for Spending}
 One of the main powers of the Bitcoin system is that the input and output of transactions
 need not have a fixed format, but rather are constructed using a Forth-like stack-based
-flexible scripting language. The transaction principals are not named users
+flexible scripting language\cite{barber2012bitter}. The transaction principals are not named users
 but anonymous public keys, which users may freely create in any number they wish.
 
 \textbf{Transactions.} Transaction encapsulate the movement of bitcoins by transfering the
@@ -505,7 +503,7 @@ from the stack, verifies the signature for a “message” implicitly defined fr
 data, and leaves the result as a true or false on the stack). For a transaction to be
 valid, its outputs must not exceed its inputs, and its issuer must show title to each input
 claimed. Title is tested by evaluating the input script fragment concatenated with the
-script fragment from the output (of an earlier transaction) that the input references.
+script fragment from the output (of an earlier transaction) that the input references\cite{barber2012bitter}.
 
 \textbf{Standard transfer.} To illustrate how the stack-based scripting language can be used,
 among other things, to designate and enforce the recipient of a transfer, we study the example
@@ -529,7 +527,7 @@ hash matches the recipient, and checks the signature against transaction and key
 \section{Blocks and Coin Creation: the Process of Verifying}
 Transactions become effective after they have been referenced in a block, which serve as
 the official record of executed transactions. Transactions may only be listed in a block
-if they satisfy such conditions as valid timestamping and absence of double spending.
+if they satisfy such conditions as valid timestamping and absence of double spending\cite{barber2012bitter}.
 
 \textbf{Blocks.} A block consists of one “coinbase” minting transaction, zero or more regular
 spending transactions, a computational proof of work, and a reference to the chronologically
@@ -560,7 +558,7 @@ problem.
 \section{Theft or Loss of Bitcoins}
 As all bitcoins are public knowledge (in the form of unredeemed transaction outputs),
 what enables a user to spend a coin is possession of the associated private key. Theft or
-loss of private keys, or signature forgeries, thus equate to loss of money in this world.
+loss of private keys, or signature forgeries, thus equate to loss of money in this world\cite{elias2011bitcoin}.
 
 \subsection{Malware Attacks}
 Reported malware attacks on Bitcoin are on the rise resulting in the theft of private
@@ -582,7 +580,7 @@ in her wallet, and in case her smartphone is captured by an adversary, the user 
 the small amount of money that she has in her wallet, but not that in her personal bank.
 Large amounts can always be spent from the super-wallet using a threshold of devices.
 Both approaches can be implemented as backward-compatible and incrementally
-deployable wrappers, requiring changes in the signature generation but not verification.
+deployable wrappers, requiring changes in the signature generation but not verification\cite{elias2011bitcoin}.
 
 \subsection{Accidental Loss of Bitcoins}
 Apart from malware, system failures or human errors can cause the accidental loss of the
@@ -590,7 +588,7 @@ wallet file (which stores the private keys needed to spend coins), which in turn
 the loss of coins (turning them into zombies). For example, bitomat, the third largest
 bitcoin exchange, recently lost about \$200K worth of bitcoins (at the exchange rate at
 the time) due to the loss of its private wallet file — the cause was later identified to be
-human error, as the developer hosted the wallet on non-persistent cloud storage.
+human error, as the developer hosted the wallet on non-persistent cloud storage\cite{elias2011bitcoin} \cite{luther2013cryptocurrencies}.
 
 \textbf{Backups.} Naturally, the universal answer against accidental loss or adversarial destruction
 of data, is to follow best-practice backup procedures. For backup purposes, the
@@ -601,7 +599,7 @@ Pseudo-random keys. To avoid having to back up a constantly growing wallet file,
 a trivial solution is to generate all of one’s private keys not at random, but pseudorandomly
 from a master secret that never changes, using a standard PRG. The problem
 then reduces to that of backing up the short and static PRG seed, e.g., in a bank vault.
-problem, of course, is that strong passwords are prone to memory loss and palimpsest.
+problem, of course, is that strong passwords are prone to memory loss and palimpsest\cite{luther2013cryptocurrencies}.
 
 \textbf{Offline (single-)password-based encryption.} One solution relies on the “optimal”
 password-based encryption system of, which offers optimal trade-offs between password
@@ -611,7 +609,7 @@ for a common security goal: e.g., an everyday password, complex but snappy; and
 a backup password, simple but just as secure by virtue of being made “sluggish”. A
 pseudo-random wallet seed, encrypted à la, would combine static portability with
 usable protection against both loss and theft, and is probably the best approach for an
-isolated user who trusts his mental possessions more than his physical ones.
+isolated user who trusts his mental possessions more than his physical ones\cite{luther2013cryptocurrencies}.
 
 \textbf{Online (multi-)password-based encryption.} Another approach is to combine the power
 of several memorable secrets into a single high-security “vault”, using the protocols of 
@@ -621,7 +619,7 @@ the members can perform private operations such as signing or decrypting a messa
 on behalf of the leader. With this protocol, a group of users can cooperate to let
 the leader spend the coins from his wallet (kept as a public, static, accessible, encrypted
 file), by issuing signatures on messages created by the leader. This approach provides
-strong safety against loss, plus security against compromise of a subset of the group.
+strong safety against loss, plus security against compromise of a subset of the group\cite{luther2013cryptocurrencies}.
 
 \textbf{Trusted paths.} Any of the above approaches can be combined with trusted-path devices,
 which are dedicated hardware devices that let humans input and read out (tiny
@@ -641,7 +639,7 @@ futile, but economic forces will counter it by fostering circumvention services.
 
 \subsection{Linear Transaction History}
 The Bitcoin wallet software fetches the entire Bitcoin blockchain at installation,
-and all new transactions and blocks are (supposedly) broadcast to all nodes.
+and all new transactions and blocks are (supposedly) broadcast to all nodes\cite{lowenthal2011bitcoin}.
 The Bitcoin nodes cryptographically verify the authenticity of all blocks and transactions
 as they receive them. Clearly, this approach introduces a scalability issue in the
 longer term, in terms of both network bandwidth, and computational overhead associated
@@ -654,13 +652,13 @@ ample computational and bandwidth resources, typically desktop computers. By con
 clients are Bitcoin nodes that are not actively minting new coins, such as smart
 phones. While verifiers have incentives to receive all transactions (to earn transaction
 fees), clients may not care. In particular, all that is needed for clients to spend their
-coins is that they receive transactions payable to their public key(s).
+coins is that they receive transactions payable to their public key(s)\cite{luther2013cryptocurrencies}.
 
 \textbf{Bitcoin filtering service.} Filtering service is a third-party cloud service provider
 which filters Bitcoin transactions, and sends only relevant transactions to nodes that
 have registered for the service. A Bitcoin client (e.g., a user’s smartphone) can send
 a cryptographic capability to the filtering service, which allows the filtering service to
-determine whether a transaction is payable to one or more of its public keys.
+determine whether a transaction is payable to one or more of its public keys\cite{kaplanov2012nerdy}.
 
 Identified the following desirable security and usability requirements are:
 
@@ -668,17 +666,17 @@ Identified the following desirable security and usability requirements are:
 	\item \textbf{Unlinkability without the capability.} While a user may allow the filtering service
 to determine which transactions are payable to itself, no other party should be able
 to link a user’s multiple public keys better than they can today (i.e., without the
-filtering service).
+filtering service)\cite{brito2013bitcoin}.
 	\item \textbf{Forward security.} The filtering service should be able to update its capability periodically,
 such that in the case of compromise or a subpoena, the revealed capability
 can allow one to identify new transactions targeted to a specific user, but cannot be
-used to link the users’ transactions in the past.
+used to link the users’ transactions in the past\cite{brito2013bitcoin}.
 	\item \textbf{Reasonable false positives and low false negatives.} A false positive is when the
 filtering service mistakenly sends a user a non-relevant transaction. False positives
 wastes a user’s bandwidth and computational power, but a user can locally detect
 such false positives after receiving the transactions. A false negative is when the
 filtering service fails to send a user a relevant transaction. The false negative rate
-should ideally be 0.
+should ideally be 0\cite{brito2013bitcoin}.
 \end{itemize}
 
 
@@ -687,17 +685,17 @@ should ideally be 0.
 \section{The purpose of mining}
 
 Bitcoin mining is often thought of as the way to create new Bitcoins. But that's really just a secondary purpose. The primary importance of mining is to ensure that all participants have a consistent view of the Bitcoin data. Because Bitcoin is a distributed peer-to-peer system, there is no central database that keeps track of who owns Bitcoin. Instead, the log of all transactions is distributed across the network.
-The main problem with a distributed transaction log is how to avoid inconsistencies that could allow someone to spend the same Bitcoins twice. The solution in Bitcoin is to mine the outstanding transactions into a block of transactions approximately every 10 minutes, which makes them official. Conflicting or invalid transactions aren't allowed into a block, so the double spend problem is avoided.
+The main problem with a distributed transaction log is how to avoid inconsistencies that could allow someone to spend the same Bitcoins twice. The solution in Bitcoin is to mine the outstanding transactions into a block of transactions approximately every 10 minutes, which makes them official. Conflicting or invalid transactions aren't allowed into a block, so the double spend problem is avoided\cite{kaplanov2012nerdy}.
 Although mining transactions into blocks avoid double-spending, it raises new problems: What stops people from randomly mining blocks? How do you decide who gets to mine a block? How does the network agree on which blocks are valid? Solving those problems is the key innovation of Bitcoin: mining is made very, very difficult, a technique called proof-of-work. It takes an insanely huge amount of computational effort to mine a block, but it is easy for peers on the network to verify that a block has been successfully mined. 
 Each mined block references the previous block, forming an unbroken chain back to the first Bitcoin block. This block chain ensures that everyone agrees on the transaction record. It also ensures that nobody can tamper with blocks in the chain since re-mining all the following blocks would be computationally infeasible. As long as nobody has more than half the computational resources, mining remains competitive and nobody can control the block chain.
 As a side-effect, mining adds new Bitcoin to the system. For each block mined, miners currently get 25 new Bitcoin (currently worth about \$15,000), which encourages miners to do the hard work of mining blocks. With the possibility of receiving \$15,000 every 10 minutes, there is a lot of money in mining.
 
 \section{How mining works}
-Mining requires a task that is very difficult to perform, but easy to verify. Bitcoin mining uses cryptography, with a hash function called double SHA-256. A hash takes a chunk of data as input and shrinks it down into a smaller hash value (in this case 256 bits). With a cryptographic hash, there's no way to get a hash value you want without trying a whole lot of inputs. But once you find an input that gives the value you want, it's easy for anyone to verify the hash. Thus, cryptographic hashing becomes a good way to implement the Bitcoin "proof-of-work".
+Mining requires a task that is very difficult to perform, but easy to verify. Bitcoin mining uses cryptography, with a hash function called double SHA-256. A hash takes a chunk of data as input and shrinks it down into a smaller hash value (in this case 256 bits). With a cryptographic hash, there's no way to get a hash value you want without trying a whole lot of inputs. But once you find an input that gives the value you want, it's easy for anyone to verify the hash. Thus, cryptographic hashing becomes a good way to implement the Bitcoin "proof-of-work"\cite{nakamoto2012bitcoin}.
 In more detail, to mine a block, you first collect the new transactions into a block. Then you hash the block to form a 256-bit block hash value. If the hash starts with enough zeros, the block has been successfully mined and is sent into the Bitcoin network and the hash becomes the identifier for the block. Most of the time the hash isn't successful, so you modify the block slightly and try again, over and over billions of times. About every 10 minutes someone will successfully mine a block, and the process starts over.
 
 The diagram below shows the structure of a specific block, and how it is hashed. The yellow part is the block header, and it is followed by the transactions that go into the block. The first transaction is the special coinbase transaction that grants the mining reward to the miner. The remaining transactions are standard Bitcoin transactions moving bitcoins around. If the hash of the header starts with enough zeros the block 
-is successfully mined. For the block below, the hash is successful:0000000000000000e067a478024addfecdc93628978aa52d91fabd4292982a50 and the block became block \#286819 in the block chain.
+is successfully mined. For the block below, the hash is successful:0000000000000000e067a478024addfecdc93628978aa52d91fabd4292982a50 and the block became block \#286819 in the block chain\cite{nakamoto2012bitcoin}.
 
 \begin{figure}[ht!]
 \centering
@@ -708,19 +706,19 @@ is successfully mined. For the block below, the hash is successful:0000000000000
 The block header contains a handful of fields that describe the block. The first field in the block is the protocol version. It is followed by the hash of the previous block in the block chain, which ensures all the blocks form an unbroken sequence in the block chain. (Inconveniently, the hash is reversed in the header.) The next field is the Merkle root a special hash of all the transactions in the block. This is also a key part of Bitcoin security, since it ensures that transactions cannot be changed once they are part of a block. Next is a (moderately accurate) timestamp of the block, followed by the mining difficulty value bits.  Finally, the nonce is an arbitrary value that is incremented on each hash attempt to provide a new hash value. The tricky part of mining is finding a nonce that works.
 
 \section{Mining is very hard}
-The difficulty of mining a block is astounding. At the current difficulty, the chance of a hash succeeding is a bit less than one in 1019. Finding a successful hash is harder than finding a particular grain of sand from all the grains of sand on Earth. To find a hash every ten minutes, the Bitcoin hash rate needs to be insanely large. Currently, the miners on the Bitcoin network are doing about 25 million gig hashes per second. That is, every second about 25,000,000,000,000,000 blocks gets hashed. I estimate (very roughly) that the total hardware used for Bitcoin mining cost tens of millions of dollars and uses as much power as the country of Cambodia.
+The difficulty of mining a block is astounding. At the current difficulty, the chance of a hash succeeding is a bit less than one in 1019. Finding a successful hash is harder than finding a particular grain of sand from all the grains of sand on Earth. To find a hash every ten minutes, the Bitcoin hash rate needs to be insanely large. Currently, the miners on the Bitcoin network are doing about 25 million gig hashes per second\cite{bergstra2014bitcoin}. That is, every second about 25,000,000,000,000,000 blocks gets hashed. I estimate (very roughly) that the total hardware used for Bitcoin mining cost tens of millions of dollars and uses as much power as the country of Cambodia.
 
 Note that finding a successful hash is an entirely arbitrary task that doesn't accomplish anything useful in itself. The only purpose of finding a small hash is to make mining difficult, which is fundamental to Bitcoin security. It seems to me that the effort put into Bitcoin mining has gone off the rails recently.
 
 Mining is funded mostly by the 25 Bitcoin reward per block, and slightly by the transaction fees (about 0.1 Bitcoin per block). Since the mining reward currently works out to about \$15,000 per block, that pays for a lot of hardware. Per transaction, miners are getting about \$34 in mining reward and \$0.10 in fees.
 
 \section{Mining with a pool}
-Since mining is so difficult, it is typically done in mining pools, where a bunch of miners share the work and share the rewards. If you mine by yourself, you might successfully mine a block and get 25 Bitcoin every few years. By mining as part of a pool, you could get a fraction of a Bitcoin every day instead, which for most people is preferable.
+Since mining is so difficult, it is typically done in mining pools, where a bunch of miners share the work and share the rewards. If you mine by yourself, you might successfully mine a block and get 25 Bitcoin every few years. By mining as part of a pool, you could get a fraction of a Bitcoin every day instead, which for most people is preferable\cite{bergstra2014bitcoin}.
 
 Mining pools use an interesting technique to see how much work miners are doing. They send out a block to be mined, and get updates from a miner whenever a miner gets a partial solution. Each partial solution proves the miner is working hard on the problem and gives the miner a share in the final reward when someone succeeds in mining the block.
 For instance, if Bitcoin mining requires a hash starting with 15 zeroes, the mining pool can ask for hashes starting with 10 zeroes, which is a million times easier. Depending on the power of their hardware, a miner might find such a solution every few seconds or a few times an hour. Eventually one of these solutions will start with not just 10 zeroes but 15 zeroes, successfully mining the block and winning the reward for the pool. The reward is then split based on each miner's count of shares as a fraction of the total, and the pool operator takes a small percentage for overhead.
 
-Most of the time someone outside the pool, will mine a block first. In that case, the pool operator sends out new data and the miners just start mining the new block. People in a pool can get edgy if a long time goes without a payout because of bad luck in mining.
+Most of the time someone outside the pool, will mine a block first. In that case, the pool operator sends out new data and the miners just start mining the new block. People in a pool can get edgy if a long time goes without a payout because of bad luck in mining\cite{bergstra2014bitcoin}.
 
 
 \chapter{Challenges and Benefits}
@@ -728,7 +726,7 @@ Most of the time someone outside the pool, will mine a block first. In that case
 \section{Challenges}
 Despite the benefits that it presents, Bitcoin has some downsides
 for potential users to consider. It has exhibited considerable
-price volatility throughout its existence. New users are at risk of
+price volatility throughout its existence\cite{luther2013cryptocurrencies} . New users are at risk of
 improperly securing or even accidentally deleting their bitcoins
 if they are not cautious. Additionally, there are concerns about
 whether hacking could compromise the bitcoin economy.
@@ -738,7 +736,7 @@ Bitcoin has weathered at least five significant price adjustments
 since 2011.These adjustments resemble traditional speculative
 bubbles: overoptimistic media coverage of Bitcoin prompts waves
 of novice investors to pump up Bitcoin prices. The exuberance
-reaches a tipping point, and the value eventually plummets.
+reaches a tipping point, and the value eventually plummets\cite{luther2013cryptocurrencies} .
 Newcomer investors eager to participate run the risk of overvaluing
 the currency and losing their money in a crash. Bitcoin’s fluctuating
 value makes many observers skeptical of the currency’s
@@ -764,14 +762,14 @@ might explain why the currency has grown more popular among
 merchants in spite of its price volatility.It is also possible that
 the value of bitcoins will become less volatile as more people
 become familiar with the Bitcoin technology and develop realistic
-expectations about its future.
+expectations about its future\cite{luther2013cryptocurrencies} .
 
 \subsection{Security Breaches}
 As a digital currency, Bitcoin presents some specific security challenges.
 If people are not careful, they can inadvertently delete
 or misplace their bitcoins. Once the digital file is lost, the money
 is lost, just as with paper cash. If people do not protect their private
-Bitcoin addresses, they can leave themselves open to theft.
+Bitcoin addresses, they can leave themselves open to theft\cite{kaplanov2012nerdy}.
 
 Bitcoin wallets can now be protected by encryption, but users
 must choose to activate the encryption. If a user does not encrypt
@@ -786,7 +784,7 @@ recovered from the DDoS attacks.) Of course, many of the security
 risks facing Bitcoin are similar to those facing traditional currencies.
 Dollar bills can be destroyed or lost, personal financial
 information can be stolen and used by criminals, and banks can
-be robbed or targeted by DDoS attacks.
+be robbed or targeted by DDoS attacks\cite{kaplanov2012nerdy}.
 
 Bitcoin users should take
 care to learn about and prepare for security concerns just as they
@@ -799,7 +797,7 @@ about some of Bitcoin’s exaptations. Because Bitcoin is pseudonymous,
 policymakers and journalists have questioned whether
 criminals can use it to launder money and accept payment for
 illicit goods and services. Indeed, like cash, it can be used for ill
-as well as for good.
+as well as for good\cite{kaplanov2012nerdy}.
 
 For one example, we can look at the FBI taken down infamous Deep Web
 black-market site known as “Silk Road.” Silk Road took advantage
@@ -814,14 +812,14 @@ and illicit drugs. The pseudonymous nature of Bitcoin
 allows buyers to purchase illegal goods online in the same way
 that cash has been traditionally used to facilitate illicit purchases
 in person. One study estimated the total monthly Silk Road
-transactions amounted to be approximately \$1.2 million.
+transactions amounted to be approximately \$1.2 million\cite{hanley2013false}.
 
 Bitcoin’s association with Silk Road has tarnished its reputation.
 Following the publication of an article on Silk Road in 2011, senators Charles Schumer and Joe Manchin sent a letter
 to Attorney General Eric Holder and the Drug Enforcement
 Administration’s administrator Michele Leonhart calling for
 a crackdown on Silk Road, the anonymizing software Tor, and
-Bitcoin
+Bitcoin.
 
 Another concern is that Bitcoin can be used to launder money
 for financing terrorism and trafficking in illegal goods. Although
@@ -849,7 +847,7 @@ money laundering record-keeping and reporting requirements.
 The combination of a public ledger system and the cooperation of
 bitcoin exchanges in collecting information on their customers
 will likely make Bitcoin less attractive to launderers relative to
-private anonymous virtual currencies.
+private anonymous virtual currencies\cite{hanley2013false}.
 
 It is also important to note that many of the potential down -
 sides of Bitcoin are the same as those facing traditional cash.
@@ -865,7 +863,7 @@ and shut down, for instance, money launderers and drug traffickers
 could still put money into the network by paying a person
 in cash to transfer his or her bitcoins into their virtual wallets.
 In this scenario, beneficial transactions are prevented by over -
-regulation while the targeted activities are still able to occur.
+regulation while the targeted activities are still able to occur\cite{hanley2013false}.
 The challenge for policymakers and regulators is how to develop
 a system of oversight that assuages their twin concerns about
 money laundering and illicit purchases without smothering the
@@ -973,7 +971,7 @@ attracted investments from big-name venture capitalists. Even
 MoneyGram and Western Union are contemplating whether to
 integrate Bitcoin into their business models. Bitcoin allows for
 instantaneous, inexpensive remittances, and the reduction in the
-cost of global remittances for consumers could be considerable.
+cost of global remittances for consumers could be considerable\cite{bergstra2014bitcoin} \cite{abramowitzstegun}.
 
 \subsection{Potential to Combat Poverty and Oppression}
 
@@ -1022,7 +1020,7 @@ governments suggest that oppressed citizens would benefit greatly from
 the ability to make private transactions free from the grabbing
 hands of tyrants. Bitcoin provides some of the privacy that has
 traditionally been afforded through cash—with the added convenience
-of digital transfer.
+of digital transfer\cite{bergstra2014bitcoin}.
 
 \subsection{Stimulus for Financial Innovation}
 One of the most promising applications of Bitcoin is as a platform

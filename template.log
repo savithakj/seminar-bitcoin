@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.3.25)  1 APR 2014 22:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.3.25)  2 APR 2014 03:02
 entering extended mode
 **template.tex
 
@@ -180,7 +180,7 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 ("C:\Users\midhun\Desktop\Downloads\Seminar Template\Seminar Template\frontmatt
 er.tex"
-("C:\Users\midhun\Desktop\Downloads\Seminar Template\Seminar Template\coverpage
+("C:\Users\midhun\Desktop\Downloads\Seminar Template\Seminar Template\titlepage
 .tex"
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 10.
  ("C:\Program Files\MiKTeX\tex\latex\psnfss\ot1phv.fd"
@@ -189,14 +189,16 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <20.74> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 15.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 14.
 
 <VidyaLogo.jpg, id=1, 127.677pt x 83.1105pt>
 File: VidyaLogo.jpg Graphic file (type jpg)
  <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 20.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 19.
 (pdftex.def)             Requested size: 143.9978pt x 93.73747pt.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 22.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 21.
 
 ("C:\Program Files\MiKTeX\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
@@ -208,20 +210,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/midhun/Desktop/D
 ownloads/Seminar Template/Seminar Template/VidyaLogo.jpg>])
-("C:\Users\midhun\Desktop\Downloads\Seminar Template\Seminar Template\titlepage
-.tex"
-File: VidyaLogo.jpg Graphic file (type jpg)
- <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 19.
-(pdftex.def)             Requested size: 143.9978pt x 93.73747pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1
-
-])
 ("C:\Users\midhun\Desktop\Downloads\Seminar Template\Seminar Template\certifica
 te.tex"
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
@@ -244,7 +232,18 @@ Overfull \hbox (7.21228pt too wide) in paragraph at lines 27--39
 
 [1
 
-]) [2]
+])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: VidyaLogo.jpg Graphic file (type jpg)
+<use VidyaLogo.jpg>
+Package pdftex.def Info: VidyaLogo.jpg used on input line 32.
+(pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
+ [2]
 ("C:\Users\midhun\Desktop\Downloads\Seminar Template\Seminar Template\acknowled
 gment.tex"
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
@@ -256,14 +255,8 @@ Overfull \hbox (0.2335pt too wide) in paragraph at lines 14--15
  []
 
 )
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 File: VidyaLogo.jpg Graphic file (type jpg)
-<use VidyaLogo.jpg>
+ <use VidyaLogo.jpg>
 Package pdftex.def Info: VidyaLogo.jpg used on input line 38.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [3
@@ -334,36 +327,46 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
 
+LaTeX Warning: Citation `abramowitzstegun' on page 1 undefined on input line 14
+2.
+
+
+Overfull \hbox (4.44441pt too wide) in paragraph at lines 123--144
+\OT1/ptm/m/n/10.95 Nakamoto, on-line trans-ac-tions al-ways re-quired a trusted
+ third-party intermediary[[]].
+ []
+
+
 Underfull \vbox (badness 6078) has occurred while \output is active []
 
 File: VidyaLogo.jpg Graphic file (type jpg)
 
 <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 146.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 144.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [1
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 156.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 154.
 
  ("C:\Program Files\MiKTeX\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 156.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 154.
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
 File: VidyaLogo.jpg Graphic file (type jpg)
 
 <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 185.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 183.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [2]
 File: VidyaLogo.jpg Graphic file (type jpg)
  <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 223.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 221.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [3]
 Missing character: There is no ‚ in font ptmr7t!
@@ -396,6 +399,12 @@ Missing character: There is no ò in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
+
+Overfull \hbox (19.9875pt too wide) in paragraph at lines 244--245
+[]\OT1/ptm/m/n/10.95 Bitcoin has sev-eral im-por-tant fea-tures that set it apa
+rt from nor-mal fiat currencies[[]]. 
+ []
+
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
@@ -412,8 +421,8 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
 File: VidyaLogo.jpg Graphic file (type jpg)
- <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 258.
+<use VidyaLogo.jpg>
+Package pdftex.def Info: VidyaLogo.jpg used on input line 259.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [4]
 Missing character: There is no ‚ in font ptmr7t!
@@ -425,8 +434,6 @@ Missing character: There is no ô in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
-Missing character: There is no ¬ in font ptmr7t!
-Missing character: There is no £ in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
@@ -443,104 +450,103 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
 File: VidyaLogo.jpg Graphic file (type jpg)
-
-<use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 304.
+ <use VidyaLogo.jpg>
+Package pdftex.def Info: VidyaLogo.jpg used on input line 302.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [5]
 Chapter 2.
 File: VidyaLogo.jpg Graphic file (type jpg)
 <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 328.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 326.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [6
 
-] <images/transaction.png, id=56, 554.07pt x 275.0275pt>
+] <images/transaction.png, id=53, 554.07pt x 275.0275pt>
 File: images/transaction.png Graphic file (type png)
 
 <use images/transaction.png>
-Package pdftex.def Info: images/transaction.png used on input line 337.
+Package pdftex.def Info: images/transaction.png used on input line 335.
 (pdftex.def)             Requested size: 341.43306pt x 200.35294pt.
 File: VidyaLogo.jpg Graphic file (type jpg)
  <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 355.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 353.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [7 <C:/Users/midhun/Desktop/Downloads/Seminar Template/Seminar Template/images
 /transaction.png (PNG copy)>]
-<images/timestamp.png, id=60, 661.47125pt x 218.8175pt>
+<images/timestamp.png, id=57, 661.47125pt x 218.8175pt>
 File: images/timestamp.png Graphic file (type png)
 
 <use images/timestamp.png>
-Package pdftex.def Info: images/timestamp.png used on input line 362.
+Package pdftex.def Info: images/timestamp.png used on input line 360.
 (pdftex.def)             Requested size: 341.43306pt x 112.94435pt.
 
-<images/block_chain.png, id=62, 661.47125pt x 196.735pt>
+<images/block_chain.png, id=59, 661.47125pt x 196.735pt>
 File: images/block_chain.png Graphic file (type png)
 
 <use images/block_chain.png>
-Package pdftex.def Info: images/block_chain.png used on input line 373.
+Package pdftex.def Info: images/block_chain.png used on input line 371.
 (pdftex.def)             Requested size: 341.43306pt x 101.54628pt.
 File: VidyaLogo.jpg Graphic file (type jpg)
  <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 378.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 376.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [8 <C:/Users/midhun/Desktop/Downloads/Seminar Template/Seminar Template/images
 /timestamp.png>]
 File: VidyaLogo.jpg Graphic file (type jpg)
 
 <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 391.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 389.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [9 <C:/Users/midhun/Desktop/Downloads/Seminar Template/Seminar Template/images
 /block_chain.png>]
 File: VidyaLogo.jpg Graphic file (type jpg)
  <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 408.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 406.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [10]
-<images/merkle_tree_and_pruning.png, id=75, 877.2775pt x 493.845pt>
+<images/merkle_tree_and_pruning.png, id=71, 877.2775pt x 493.845pt>
 File: images/merkle_tree_and_pruning.png Graphic file (type png)
 
 <use images/merkle_tree_and_pruning.png>
 Package pdftex.def Info: images/merkle_tree_and_pruning.png used on input line 
-411.
+409.
 (pdftex.def)             Requested size: 341.43306pt x 192.20692pt.
 
-<images/proof_of_work.png, id=76, 1051.93pt x 461.725pt>
+<images/proof_of_work.png, id=72, 1051.93pt x 461.725pt>
 File: images/proof_of_work.png Graphic file (type png)
 
 <use images/proof_of_work.png>
-Package pdftex.def Info: images/proof_of_work.png used on input line 423.
+Package pdftex.def Info: images/proof_of_work.png used on input line 421.
 (pdftex.def)             Requested size: 341.43306pt x 149.86862pt.
 File: VidyaLogo.jpg Graphic file (type jpg)
  <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 428.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 426.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [11 <C:/Users/midhun/Desktop/Downloads/Seminar Template/Seminar Template/image
-s/merkle_tree_and_pruning.png>] <images/multiple_in_outs_transaction.png, id=81
+s/merkle_tree_and_pruning.png>] <images/multiple_in_outs_transaction.png, id=78
 , 339.2675pt x 222.8325pt>
 File: images/multiple_in_outs_transaction.png Graphic file (type png)
 
 <use images/multiple_in_outs_transaction.png>
 Package pdftex.def Info: images/multiple_in_outs_transaction.png used on input 
-line 435.
+line 433.
 (pdftex.def)             Requested size: 199.16928pt x 130.8138pt.
 File: VidyaLogo.jpg Graphic file (type jpg)
  <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 444.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 442.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [12 <C:/Users/midhun/Desktop/Downloads/Seminar Template/Seminar Template/image
-s/proof_of_work.png>] <images/traditional_privacy_model.png, id=86, 871.255pt x
+s/proof_of_work.png>] <images/traditional_privacy_model.png, id=83, 871.255pt x
  281.05pt>
 File: images/traditional_privacy_model.png Graphic file (type png)
 
 <use images/traditional_privacy_model.png>
 Package pdftex.def Info: images/traditional_privacy_model.png used on input lin
-e 447.
+e 445.
 (pdftex.def)             Requested size: 341.43306pt x 110.13654pt.
 File: VidyaLogo.jpg Graphic file (type jpg)
  <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 453.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 451.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [13 <C:/Users/midhun/Desktop/Downloads/Seminar Template/Seminar Template/image
 s/multiple_in_outs_transaction.png> <C:/Users/midhun/Desktop/Downloads/Seminar 
@@ -569,7 +575,7 @@ Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
 File: VidyaLogo.jpg Graphic file (type jpg)
 <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 486.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 484.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [14
 
@@ -588,7 +594,7 @@ Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
 File: VidyaLogo.jpg Graphic file (type jpg)
  <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 522.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 520.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [15]
 Missing character: There is no ‚ in font ptmr7t!
@@ -605,7 +611,7 @@ Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
 File: VidyaLogo.jpg Graphic file (type jpg)
  <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 559.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 557.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [16]
 Missing character: There is no ‚ in font ptmr7t!
@@ -629,7 +635,7 @@ Missing character: There is no î in font ptmr7t!
 File: VidyaLogo.jpg Graphic file (type jpg)
 
 <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 594.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 592.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [17]
 Missing character: There is no ‚ in font ptmr7t!
@@ -669,14 +675,14 @@ Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
 File: VidyaLogo.jpg Graphic file (type jpg)
  <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 634.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 632.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [18]
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
 
-Overfull \hbox (4.32938pt too wide) in paragraph at lines 659--664
+Overfull \hbox (4.32938pt too wide) in paragraph at lines 657--662
 []\OT1/ptm/b/n/10.95 Bitcoin fil-ter-ing ser-vice. \OT1/ptm/m/n/10.95 Fil-ter-i
 ng ser-vice is a third-party cloud ser-vice provider
  []
@@ -686,7 +692,7 @@ Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
 File: VidyaLogo.jpg Graphic file (type jpg)
 <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 672.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 670.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [19]
 Missing character: There is no ‚ in font ptmr7t!
@@ -697,45 +703,45 @@ Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
 File: VidyaLogo.jpg Graphic file (type jpg)
  <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 686.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 684.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [20]
 Chapter 4.
 File: VidyaLogo.jpg Graphic file (type jpg)
 <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 694.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 692.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [21
 
 ]
-Overfull \hbox (13.60138pt too wide) in paragraph at lines 699--701
+Overfull \hbox (13.60138pt too wide) in paragraph at lines 697--699
 \OT1/ptm/m/n/10.95 ful:0000000000000000e067a478024addfecdc93628978aa52d91fabd42
 92982a50 and
  []
 
-<images/structure_of_bitcoin_block.png, id=117, 501.875pt x 294.09875pt>
+<images/structure_of_bitcoin_block.png, id=114, 501.875pt x 294.09875pt>
 File: images/structure_of_bitcoin_block.png Graphic file (type png)
 
 <use images/structure_of_bitcoin_block.png>
 Package pdftex.def Info: images/structure_of_bitcoin_block.png used on input li
-ne 704.
+ne 702.
 (pdftex.def)             Requested size: 341.43306pt x 200.0877pt.
 File: VidyaLogo.jpg Graphic file (type jpg)
  <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 710.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 708.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [22]
 File: VidyaLogo.jpg Graphic file (type jpg)
 
 <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 719.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 717.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [23 <C:/Users/midhun/Desktop/Downloads/Seminar Template/Seminar Template/image
 s/structure_of_bitcoin_block.png (PNG copy)>]
 File: VidyaLogo.jpg Graphic file (type jpg)
 
 <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 726.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 724.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [24]
 Chapter 5.
@@ -756,7 +762,7 @@ Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
 File: VidyaLogo.jpg Graphic file (type jpg)
 <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 768.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 766.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [25
 
@@ -772,7 +778,7 @@ Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
 File: VidyaLogo.jpg Graphic file (type jpg)
  <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 818.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 816.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [26]
 Missing character: There is no ‚ in font ptmr7t!
@@ -789,7 +795,7 @@ Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ì in font ptmr7t!
 File: VidyaLogo.jpg Graphic file (type jpg)
  <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 874.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 872.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [27]
 Missing character: There is no ‚ in font ptmr7t!
@@ -801,7 +807,7 @@ Missing character: There is no ô in font ptmr7t!
 File: VidyaLogo.jpg Graphic file (type jpg)
 
 <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 927.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 925.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [28]
 Missing character: There is no ‚ in font ptmr7t!
@@ -817,14 +823,18 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
 
-Overfull \hbox (0.51952pt too wide) in paragraph at lines 938--958
+Overfull \hbox (0.51952pt too wide) in paragraph at lines 936--956
 []\OT1/ptm/m/n/10.95 Consumers like charge-backs, how-ever, be-cause that sys-t
 em pro-tects them from
  []
 
+
+LaTeX Warning: Citation `abramowitzstegun' on page 29 undefined on input line 9
+74.
+
 File: VidyaLogo.jpg Graphic file (type jpg)
 <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 977.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 975.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [29]
 Missing character: There is no ‚ in font ptmr7t!
@@ -844,7 +854,7 @@ Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no î in font ptmr7t!
 File: VidyaLogo.jpg Graphic file (type jpg)
  <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 1026.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 1024.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [30]
 Missing character: There is no ‚ in font ptmr7t!
@@ -861,7 +871,7 @@ Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
 File: VidyaLogo.jpg Graphic file (type jpg)
  <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 1056.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 1054.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [31]
 Chapter 6.
@@ -876,7 +886,7 @@ Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
 File: VidyaLogo.jpg Graphic file (type jpg)
 <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 1093.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 1091.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [32
 
@@ -891,34 +901,54 @@ Package pdftex.def Info: VidyaLogo.jpg used on input line 6.
 ("C:\Users\midhun\Desktop\Downloads\Seminar Template\Seminar Template\template.
 bbl" [33
 
-])
+]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no î in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--57
+[]\OT1/ptm/m/n/10.95 J. Brito and A. Castillo, ``Bit-coin: A primer for pol-i-c
+y-mak-
+ []
+
+
+Underfull \hbox (badness 5893) in paragraph at lines 54--57
+\OT1/ptm/m/n/10.95 ers,'' \OT1/ptm/m/it/10.95 Mer-ca-tus Cen-ter: Geroge Ma-son
+ Uni-ver-sity. http://mercatus.
+ []
+
+)
 File: VidyaLogo.jpg Graphic file (type jpg)
  <use VidyaLogo.jpg>
-Package pdftex.def Info: VidyaLogo.jpg used on input line 1126.
+Package pdftex.def Info: VidyaLogo.jpg used on input line 1124.
 (pdftex.def)             Requested size: 14.22636pt x 9.26012pt.
  [34
 
 ]
 ("C:\Users\midhun\Desktop\Downloads\Seminar Template\Seminar Template\template.
-aux") ) 
+aux")
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2233 strings out of 493921
- 30075 string characters out of 3148883
- 83340 words of memory out of 3000000
- 5471 multiletter control sequences out of 15000+200000
+ 2239 strings out of 493921
+ 30082 string characters out of 3148883
+ 83363 words of memory out of 3000000
+ 5480 multiletter control sequences out of 15000+200000
  33317 words of font info for 61 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  30i,14n,43p,832b,391s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/Program Fil
-es/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fo
-nts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helve
-tic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:
-/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX
-/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/time
-s/utmri8a.pfb>
-Output written on template.pdf (43 pages, 349983 bytes).
+{C:/Program Files/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/t
+ype1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/u
+hvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Prog
+ram Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/font
+s/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utm
+ri8a.pfb>
+Output written on template.pdf (42 pages, 353857 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
+ 183 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
